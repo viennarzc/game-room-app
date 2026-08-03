@@ -13,16 +13,17 @@
   },
   "targets": {
     "Game Room": {
-      "dependencies": [
-        {
-          "embed": true,
-          "target": "Game Room Widget"
-        }
-      ],
       "deploymentTarget": "26.0",
       "entitlements": {
         "path": "App/New Project.entitlements",
         "properties": {
+          "com.apple.developer.icloud-container-identifiers": [
+            "iCloud.com.vnrz.gameroom"
+          ],
+          "com.apple.developer.icloud-services": [
+            "CloudKit"
+          ],
+          "com.apple.developer.ubiquity-kvstore-identifier": "$(TeamIdentifierPrefix)com.vnrz.gameroom",
           "com.apple.security.app-sandbox": true
         }
       },
@@ -34,6 +35,9 @@
           "CFBundleShortVersionString": "1.0",
           "CFBundleVersion": "1",
           "ITSAppUsesNonExemptEncryption": false,
+          "UIBackgroundModes": [
+            "remote-notification"
+          ],
           "UILaunchScreen": {},
           "UISupportedInterfaceOrientations": [
             "UIInterfaceOrientationPortrait",
@@ -45,14 +49,26 @@
       },
       "platform": "auto",
       "settings": {
-        "ASSETCATALOG_COMPILER_APPICON_NAME": "AppIcon",
-        "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "AccentColor",
-        "CURRENT_PROJECT_VERSION": "1",
-        "MARKETING_VERSION": "1.0",
-        "PRODUCT_BUNDLE_IDENTIFIER": "app.bitrig.new.970a7539-7948-4f5a-a34a-5eaeb24e13f7",
-        "PRODUCT_NAME": "$(TARGET_NAME)",
-        "SWIFT_VERSION": "5.0",
-        "TARGETED_DEVICE_FAMILY": "1,2"
+        "base": {
+          "ASSETCATALOG_COMPILER_APPICON_NAME": "AppIcon",
+          "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "AccentColor",
+          "CURRENT_PROJECT_VERSION": "1",
+          "INFOPLIST_FILE[sdk=macosx*]": "App/Info-macOS.plist",
+          "MARKETING_VERSION": "1.0",
+          "PRODUCT_BUNDLE_IDENTIFIER": "com.vnrz.gameroom",
+          "PRODUCT_NAME": "$(TARGET_NAME)",
+          "SWIFT_VERSION": "6.0"
+        },
+        "configs": {
+          "Debug": {
+            "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator macosx xros xrsimulator",
+            "TARGETED_DEVICE_FAMILY": "1,2,7"
+          },
+          "Release": {
+            "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+            "TARGETED_DEVICE_FAMILY": "1,2"
+          }
+        }
       },
       "sources": [
         {
@@ -61,50 +77,51 @@
       ],
       "supportedDestinations": [
         "iOS",
-        "macOS"
+        "macOS",
+        "visionOS"
       ],
       "type": "application"
     },
-    "Game Room Widget": {
+    "Game RoomTests": {
+      "dependencies": [
+        {
+          "target": "Game Room"
+        }
+      ],
       "deploymentTarget": "26.0",
-      "entitlements": {
-        "path": "Widget/Widget.entitlements",
-        "properties": {
-          "com.apple.security.app-sandbox": true
-        }
-      },
-      "info": {
-        "path": "Widget/Info.plist",
-        "properties": {
-          "CFBundleDisplayName": "Game Room Widget",
-          "CFBundleShortVersionString": "1.0",
-          "CFBundleVersion": "1",
-          "ITSAppUsesNonExemptEncryption": false,
-          "NSExtension": {
-            "NSExtensionPointIdentifier": "com.apple.widgetkit-extension"
-          }
-        }
-      },
-      "platform": "auto",
+      "platform": "iOS",
       "settings": {
-        "APPLICATION_EXTENSION_API_ONLY": "YES",
-        "CURRENT_PROJECT_VERSION": "1",
-        "MARKETING_VERSION": "1.0",
-        "PRODUCT_BUNDLE_IDENTIFIER": "app.bitrig.new.970a7539-7948-4f5a-a34a-5eaeb24e13f7.widget-extension",
-        "PRODUCT_NAME": "$(TARGET_NAME)",
-        "SKIP_INSTALL": "YES",
-        "SWIFT_VERSION": "5.0"
+        "GENERATE_INFOPLIST_FILE": "YES",
+        "PRODUCT_BUNDLE_IDENTIFIER": "com.vnrz.gameroom.tests",
+        "SWIFT_VERSION": "6.0"
       },
       "sources": [
         {
-          "path": "Widget"
+          "path": "Tests"
         }
       ],
-      "supportedDestinations": [
-        "iOS",
-        "macOS"
+      "type": "bundle.unit-test"
+    },
+    "Game RoomUITests": {
+      "dependencies": [
+        {
+          "target": "Game Room"
+        }
       ],
-      "type": "app-extension"
+      "deploymentTarget": "26.0",
+      "platform": "iOS",
+      "settings": {
+        "GENERATE_INFOPLIST_FILE": "YES",
+        "PRODUCT_BUNDLE_IDENTIFIER": "com.vnrz.gameroom.uitests",
+        "SWIFT_VERSION": "6.0",
+        "TEST_TARGET_NAME": "Game Room"
+      },
+      "sources": [
+        {
+          "path": "UITests"
+        }
+      ],
+      "type": "bundle.ui-testing"
     }
   }
 }

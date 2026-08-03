@@ -7,117 +7,395 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0C94A2BA8289C0F9C040D8FA /* GameCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B34050B2E8884CCA891BA /* GameCardView.swift */; };
-		1F21D34742E4B4E9295DC8BF /* Game Room Widget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F5B649EC3C3649B62FE53D59 /* Game Room Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		30820030DC01B636E18CAA7A /* GameObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E74B4D0D6E398A6A8439440 /* GameObjectView.swift */; };
-		390A0F9FA6BCF857AC638B73 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E53F4A59661201221E0BB83D /* GameDetailView.swift */; };
-		5DC1B254132E2F665CCE3AF6 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F55D325A840159E58B9AF88 /* AddGameView.swift */; };
-		611E2C88517819F61ED26FA9 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7881B56920052E980981E3A /* App.swift */; };
-		6365528162114C161C3FC22E /* PlatformObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0C6CC429FC70E2CE6816F2 /* PlatformObjectView.swift */; };
-		87698A529A5CC8BEC365F741 /* GameGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3A9465B48AABB7F323CC239 /* GameGalleryView.swift */; };
-		9A2524FB145039C5E6B1FD15 /* CaptureMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBC9E129E1E9415F859A83B /* CaptureMomentView.swift */; };
-		9EAD814CD6529C0E6049D1FC /* MomentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21E1E23381F99E9D22EAB08D /* MomentDetailView.swift */; };
-		BB64DABDB360246E788E5C4E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B009F3774863C7C95F0EC91 /* ContentView.swift */; };
-		C54C5D8F0A93FCB901921264 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D1B10759B98B0F6E05728E7 /* SettingsView.swift */; };
-		C7C4C79545367EC2B77BAA8E /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4324FCEC56F27F6E4A6A040B /* ShelfView.swift */; };
-		CBBA83047859D12696BF5618 /* MemoryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CA9A3FD4C1749596B478FDD /* MemoryHomeView.swift */; };
-		DCCD00137F713E4177951D0C /* GameRoomWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F488D3AB5F6B941C089A1D /* GameRoomWidget.swift */; };
-		DFE8656D36E9A84F6D492E3C /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9CA4E1CBD10C3453DC0981 /* Game.swift */; };
-		EC90D1286A17458850D50D6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65706236B24918FD7E7AC79 /* Assets.xcassets */; };
+		02A1BD039E5885F2B869DF30 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 252DDDA3BAA5389B1BDE0920 /* GameDetailView.swift */; };
+		0747B7435792E90E821F1E3F /* GameObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A69D0D0182E6DF9385E8B1 /* GameObjectView.swift */; };
+		0940C66FC84D4918B823C225 /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 404A410F9B282ED00446D7D2 /* ShelfView.swift */; };
+		1361E3CF544BDB97169851A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 660DD85AF72113EA40E05A0E /* Assets.xcassets */; };
+		200C346CA5D00A68F1B4B90D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA51709A312BD3E32AA279F /* Foundation.framework */; };
+		39470EB8A535A2AFFDB6A41D /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B501C54947F51525F553E2 /* NotificationScheduler.swift */; };
+		3B9749A535EA256A9D3A69CB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD53BA61FDBB55FA7BEAE049 /* SettingsView.swift */; };
+		3D41E6C827AD172E8B707DC4 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8E2BF471BAD41F0DF912C7 /* AppRootView.swift */; };
+		3E6C1E6A6E4F9B7FAD8E92BF /* ImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69A2E5BF9970F8B5615373 /* ImagePipeline.swift */; };
+		3EF5EACCE37580EAE739E208 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0F0E5567C4155AA85C7B27 /* AddGameView.swift */; };
+		68096DA191D162394A55BB86 /* StoredImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAEFD937543918263971431 /* StoredImageView.swift */; };
+		6D1FF219A583CC01A9420D5F /* MomentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE0DFB16D47E4F8AE9A4EA6A /* MomentDetailView.swift */; };
+		8521428376BD40CE11DC91E2 /* GameRoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 664D29B0FC6BDBEB59EFF7B3 /* GameRoomApp.swift */; };
+		856CAB94A70F12B7259B603D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3B8F5D76375084B2B89BCF /* Models.swift */; };
+		925D035F098E6294133EB334 /* ModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E469E582E7C87F5914FA4D1 /* ModelContainerFactory.swift */; };
+		B90FE3F6A7CD917B57613C18 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A29B8F8D4E6629B84B4167 /* AppTheme.swift */; };
+		C0C6B37A79FA9425E669D62F /* GameDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8648F9120BA29E37186C6A5C /* GameDomain.swift */; };
+		DFC6CC85D2CA1CF4E8D24EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA51709A312BD3E32AA279F /* Foundation.framework */; };
+		F20A457E8BD3CDE61D21F0F2 /* GameRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AB4393E1F22EBF49CC796A /* GameRoomTests.swift */; };
+		F55DA4104E50E211B9C6E7D0 /* MemoryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB6A05FE4DAE8C81A7F7B0F7 /* MemoryHomeView.swift */; };
+		F8E39DAD82D2176905B6C59F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0411E220637A552AAFE4CE9C /* OnboardingView.swift */; };
+		FBC095261A697C2FABB41529 /* GameRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 274EE2BEABAC41D0B2DD13C0 /* GameRoomUITests.swift */; };
+		FF0720AEA5E9766A4631DB51 /* CaptureMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C5EAABCFB12EEA164EDD49 /* CaptureMomentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		37E4DFFC53D7498E237A6909 /* PBXContainerItemProxy */ = {
+		257E023C1A12C50D6CED9F37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 482602070C375D64A58C4FAC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CEA3EBD4294E3C9A7C392784;
-			remoteInfo = "Game Room Widget";
+			remoteGlobalIDString = 2EF1CB56EAE796BE9FFDC966;
+			remoteInfo = "Game Room";
+		};
+		5D1036BF05FA1106413706EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 482602070C375D64A58C4FAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2EF1CB56EAE796BE9FFDC966;
+			remoteInfo = "Game Room";
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		8F03C73D3025BFCE9C00E9AD /* Embed Foundation Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				1F21D34742E4B4E9295DC8BF /* Game Room Widget.appex in Embed Foundation Extensions */,
-			);
-			name = "Embed Foundation Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0034DDED1E330B67F5230D94 /* Game Room.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Room.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0D1B10759B98B0F6E05728E7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		0E0C6CC429FC70E2CE6816F2 /* PlatformObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformObjectView.swift; sourceTree = "<group>"; };
-		21E1E23381F99E9D22EAB08D /* MomentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
-		4324FCEC56F27F6E4A6A040B /* ShelfView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
-		6E74B4D0D6E398A6A8439440 /* GameObjectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameObjectView.swift; sourceTree = "<group>"; };
-		7B009F3774863C7C95F0EC91 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		7B9CA4E1CBD10C3453DC0981 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		7CA9A3FD4C1749596B478FDD /* MemoryHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryHomeView.swift; sourceTree = "<group>"; };
-		9F55D325A840159E58B9AF88 /* AddGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
-		A65706236B24918FD7E7AC79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B3A9465B48AABB7F323CC239 /* GameGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameGalleryView.swift; sourceTree = "<group>"; };
-		C8F488D3AB5F6B941C089A1D /* GameRoomWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRoomWidget.swift; sourceTree = "<group>"; };
-		D7881B56920052E980981E3A /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		D93B34050B2E8884CCA891BA /* GameCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCardView.swift; sourceTree = "<group>"; };
-		E53F4A59661201221E0BB83D /* GameDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
-		F5B649EC3C3649B62FE53D59 /* Game Room Widget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = "Game Room Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDBC9E129E1E9415F859A83B /* CaptureMomentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureMomentView.swift; sourceTree = "<group>"; };
+		02ABB00E1A2F72A5AC25D7C6 /* Info-macOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		0389909428001544002C75A2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		03A29B8F8D4E6629B84B4167 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		0411E220637A552AAFE4CE9C /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0E469E582E7C87F5914FA4D1 /* ModelContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
+		11C5EAABCFB12EEA164EDD49 /* CaptureMomentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptureMomentView.swift; sourceTree = "<group>"; };
+		1CA906C21E0DC229A5E06D4E /* GameRoomWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomWidget.swift; sourceTree = "<group>"; };
+		212B4424E24CE5805913C1AA /* Catalog-API-Study.md */ = {isa = PBXFileReference; includeInIndex = 1; path = "Catalog-API-Study.md"; sourceTree = "<group>"; };
+		24267CFEDC560FEBE9513949 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		252DDDA3BAA5389B1BDE0920 /* GameDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		25CE4CF6ACFFB04A94184317 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		274EE2BEABAC41D0B2DD13C0 /* GameRoomUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomUITests.swift; sourceTree = "<group>"; };
+		2B7DED4918822622C70F37F5 /* GameDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		34A37916B85558AF3BFB84C8 /* Game RoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game RoomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A69D0D0182E6DF9385E8B1 /* GameObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameObjectView.swift; sourceTree = "<group>"; };
+		3608C580AFE6DC8298DC9FD0 /* GameRoomApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomApp.swift; sourceTree = "<group>"; };
+		39AB4393E1F22EBF49CC796A /* GameRoomTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomTests.swift; sourceTree = "<group>"; };
+		3A036039DF48FE223A9C20EC /* ShelfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		3EEE4066C9F93F97064CC6DA /* Game RoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game RoomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		404A410F9B282ED00446D7D2 /* ShelfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		443176E79622244607F9A60D /* MomentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
+		44B501C54947F51525F553E2 /* NotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		4659B0F3E2BD6E3AD0BA957A /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		57C0965C7B0B23B3585C7100 /* GameObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameObjectView.swift; sourceTree = "<group>"; };
+		5E714453D8CBB5917984A9A3 /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
+		5F3341A19719D69A2DC00F62 /* CaptureMomentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptureMomentView.swift; sourceTree = "<group>"; };
+		623ADF856D4B4C74B59F4C48 /* New Project.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = "New Project.entitlements"; sourceTree = "<group>"; };
+		660DD85AF72113EA40E05A0E /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		664D29B0FC6BDBEB59EFF7B3 /* GameRoomApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomApp.swift; sourceTree = "<group>"; };
+		6DAEFD937543918263971431 /* StoredImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoredImageView.swift; sourceTree = "<group>"; };
+		6F83140F1E9A65C348706548 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		70E73A55D68FEBAF3801C56F /* MemoryHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryHomeView.swift; sourceTree = "<group>"; };
+		8648F9120BA29E37186C6A5C /* GameDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDomain.swift; sourceTree = "<group>"; };
+		8A0F0E5567C4155AA85C7B27 /* AddGameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		8C9E50D830610FF246F22E32 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		95D39036408B9B36EA3A44A5 /* Project.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Project.json; sourceTree = "<group>"; };
+		9DA51709A312BD3E32AA279F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AA91F7B30A78777F609232E3 /* GameRoomWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomWidget.swift; sourceTree = "<group>"; };
+		AC8E2BF471BAD41F0DF912C7 /* AppRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		BB6A05FE4DAE8C81A7F7B0F7 /* MemoryHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryHomeView.swift; sourceTree = "<group>"; };
+		BC86CB964586E06BD190DB4C /* AddGameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		C1AD2D494D9ECA0E9D13A67F /* AppRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		C4855AD9AFE45148D2D2B189 /* StoredImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoredImageView.swift; sourceTree = "<group>"; };
+		C50CC51658A546451D769B4E /* GameDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDomain.swift; sourceTree = "<group>"; };
+		C97DB367955C4FC283D5EFD7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD53BA61FDBB55FA7BEAE049 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D070F791B2C7548F806C96D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DE7EB659F55DEFEA4ED93EFA /* NotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		EC3B8F5D76375084B2B89BCF /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		F481A21D29417EB416774035 /* ModelContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
+		FC69A2E5BF9970F8B5615373 /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
+		FE0DFB16D47E4F8AE9A4EA6A /* MomentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
+		FF6091DA7F762765B3B6DEA5 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFrameworksBuildPhase section */
+		14EF732D3096A6165DBA60D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFC6CC85D2CA1CF4E8D24EF4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C28D16E42019932F2305D571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E69825BAB34C8CFDD1F57620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200C346CA5D00A68F1B4B90D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
 /* Begin PBXGroup section */
-		AD3D83C937CB3440252AFD25 /* App */ = {
+		003657944977C97D2DCD4B7A /* Memory */ = {
 			isa = PBXGroup;
 			children = (
-				9F55D325A840159E58B9AF88 /* AddGameView.swift */,
-				D7881B56920052E980981E3A /* App.swift */,
-				A65706236B24918FD7E7AC79 /* Assets.xcassets */,
-				FDBC9E129E1E9415F859A83B /* CaptureMomentView.swift */,
-				7B009F3774863C7C95F0EC91 /* ContentView.swift */,
-				7B9CA4E1CBD10C3453DC0981 /* Game.swift */,
-				D93B34050B2E8884CCA891BA /* GameCardView.swift */,
-				E53F4A59661201221E0BB83D /* GameDetailView.swift */,
-				B3A9465B48AABB7F323CC239 /* GameGalleryView.swift */,
-				6E74B4D0D6E398A6A8439440 /* GameObjectView.swift */,
-				7CA9A3FD4C1749596B478FDD /* MemoryHomeView.swift */,
-				21E1E23381F99E9D22EAB08D /* MomentDetailView.swift */,
-				0E0C6CC429FC70E2CE6816F2 /* PlatformObjectView.swift */,
-				0D1B10759B98B0F6E05728E7 /* SettingsView.swift */,
-				4324FCEC56F27F6E4A6A040B /* ShelfView.swift */,
+				70E73A55D68FEBAF3801C56F /* MemoryHomeView.swift */,
 			);
+			name = Memory;
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		0E93814E3A2C4D673340FA87 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FF6091DA7F762765B3B6DEA5 /* OnboardingView.swift */,
+			);
+			name = Onboarding;
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		25BE1C75D1A086E754D9FF50 /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				404A410F9B282ED00446D7D2 /* ShelfView.swift */,
+			);
+			name = Shelf;
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		2D0E280B356F5809616D3253 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				367B0918ABA394DEBF07E26B /* AppShell */,
+				660DD85AF72113EA40E05A0E /* Assets.xcassets */,
+				DE0A8F9A598EFDBB60C2E9FF /* Data */,
+				CC8BAD354E5DCDE11612C285 /* DesignSystem */,
+				B76617CB2EA7971F7A581B70 /* Domain */,
+				6749D7242AC57B4AE17A18BE /* Features */,
+				02ABB00E1A2F72A5AC25D7C6 /* Info-macOS.plist */,
+				C97DB367955C4FC283D5EFD7 /* Info.plist */,
+				623ADF856D4B4C74B59F4C48 /* New Project.entitlements */,
+				F77F5796DF6611717A63B587 /* Services */,
+			);
+			name = App;
 			path = App;
+			sourceTree = "<group>";
+		};
+		2E183B6DDF5B419B3322CB3E /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				CD53BA61FDBB55FA7BEAE049 /* SettingsView.swift */,
+			);
+			name = Settings;
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		367B0918ABA394DEBF07E26B /* AppShell */ = {
+			isa = PBXGroup;
+			children = (
+				AC8E2BF471BAD41F0DF912C7 /* AppRootView.swift */,
+				664D29B0FC6BDBEB59EFF7B3 /* GameRoomApp.swift */,
+			);
+			name = AppShell;
+			path = AppShell;
+			sourceTree = "<group>";
+		};
+		57B4025E16AF607CCB4BB8A5 /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				BB6A05FE4DAE8C81A7F7B0F7 /* MemoryHomeView.swift */,
+			);
+			name = Memory;
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		669C9DF1EEAB62D20A89626B /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				BC86CB964586E06BD190DB4C /* AddGameView.swift */,
+				2B7DED4918822622C70F37F5 /* GameDetailView.swift */,
+				57C0965C7B0B23B3585C7100 /* GameObjectView.swift */,
+			);
+			name = Games;
+			path = Games;
+			sourceTree = "<group>";
+		};
+		6749D7242AC57B4AE17A18BE /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				B2AC5A85D805F85D2F70A05C /* Games */,
+				57B4025E16AF607CCB4BB8A5 /* Memory */,
+				AFB85C1842E775ACC9684F40 /* Moments */,
+				8355B5A4F71C4EA1D5391C03 /* Onboarding */,
+				2E183B6DDF5B419B3322CB3E /* Settings */,
+				25BE1C75D1A086E754D9FF50 /* Shelf */,
+			);
+			name = Features;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		7C407A88E8A3D95A8FCE29B7 /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				212B4424E24CE5805913C1AA /* Catalog-API-Study.md */,
+			);
+			name = Docs;
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		8355B5A4F71C4EA1D5391C03 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				0411E220637A552AAFE4CE9C /* OnboardingView.swift */,
+			);
+			name = Onboarding;
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A35ED36F177E137E1E75E3FF /* Deferred */ = {
+			isa = PBXGroup;
+			children = (
+				BAC0F7E4B1CB50A19A38474A /* Widget */,
+			);
+			name = Deferred;
+			path = Deferred;
+			sourceTree = "<group>";
+		};
+		A4A40F289E19304910F80959 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				39AB4393E1F22EBF49CC796A /* GameRoomTests.swift */,
+			);
+			name = Tests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		A4B4675EF054115D0B9E1A70 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				5F3341A19719D69A2DC00F62 /* CaptureMomentView.swift */,
+				443176E79622244607F9A60D /* MomentDetailView.swift */,
+			);
+			name = Moments;
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		A760CCD9E9681853E2366AB1 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				8C9E50D830610FF246F22E32 /* SettingsView.swift */,
+			);
+			name = Settings;
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		AFB85C1842E775ACC9684F40 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				11C5EAABCFB12EEA164EDD49 /* CaptureMomentView.swift */,
+				FE0DFB16D47E4F8AE9A4EA6A /* MomentDetailView.swift */,
+			);
+			name = Moments;
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		B2AC5A85D805F85D2F70A05C /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				8A0F0E5567C4155AA85C7B27 /* AddGameView.swift */,
+				252DDDA3BAA5389B1BDE0920 /* GameDetailView.swift */,
+				35A69D0D0182E6DF9385E8B1 /* GameObjectView.swift */,
+			);
+			name = Games;
+			path = Games;
+			sourceTree = "<group>";
+		};
+		B76617CB2EA7971F7A581B70 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				8648F9120BA29E37186C6A5C /* GameDomain.swift */,
+				EC3B8F5D76375084B2B89BCF /* Models.swift */,
+			);
+			name = Domain;
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		BAC0F7E4B1CB50A19A38474A /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				AA91F7B30A78777F609232E3 /* GameRoomWidget.swift */,
+				0389909428001544002C75A2 /* README.md */,
+			);
+			name = Widget;
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		CC8BAD354E5DCDE11612C285 /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				03A29B8F8D4E6629B84B4167 /* AppTheme.swift */,
+				6DAEFD937543918263971431 /* StoredImageView.swift */,
+			);
+			name = DesignSystem;
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		CE3C71B14E718CB309C2D597 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				274EE2BEABAC41D0B2DD13C0 /* GameRoomUITests.swift */,
+			);
+			name = UITests;
+			path = UITests;
 			sourceTree = "<group>";
 		};
 		DB727812E189FD39D54A7E56 = {
 			isa = PBXGroup;
 			children = (
-				AD3D83C937CB3440252AFD25 /* App */,
-				EC6CCE60240E769F1781557C /* Widget */,
 				E3C138378155B8422C0C859B /* Products */,
+				2D0E280B356F5809616D3253 /* App */,
+				A4A40F289E19304910F80959 /* Tests */,
+				CE3C71B14E718CB309C2D597 /* UITests */,
+				A35ED36F177E137E1E75E3FF /* Deferred */,
+				7C407A88E8A3D95A8FCE29B7 /* Docs */,
+				D070F791B2C7548F806C96D6 /* README.md */,
+				95D39036408B9B36EA3A44A5 /* Project.json */,
 			);
+			sourceTree = "<group>";
+		};
+		DE0A8F9A598EFDBB60C2E9FF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				0E469E582E7C87F5914FA4D1 /* ModelContainerFactory.swift */,
+			);
+			name = Data;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E37ECA9D097F6C3ED060847A /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				3A036039DF48FE223A9C20EC /* ShelfView.swift */,
+			);
+			name = Shelf;
+			path = Shelf;
 			sourceTree = "<group>";
 		};
 		E3C138378155B8422C0C859B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F5B649EC3C3649B62FE53D59 /* Game Room Widget.appex */,
 				0034DDED1E330B67F5230D94 /* Game Room.app */,
+				3EEE4066C9F93F97064CC6DA /* Game RoomTests.xctest */,
+				34A37916B85558AF3BFB84C8 /* Game RoomUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EC6CCE60240E769F1781557C /* Widget */ = {
+		F77F5796DF6611717A63B587 /* Services */ = {
 			isa = PBXGroup;
 			children = (
-				C8F488D3AB5F6B941C089A1D /* GameRoomWidget.swift */,
+				FC69A2E5BF9970F8B5615373 /* ImagePipeline.swift */,
+				44B501C54947F51525F553E2 /* NotificationScheduler.swift */,
 			);
-			path = Widget;
+			name = Services;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,38 +405,54 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20978472B67D69692401A1C7 /* Build configuration list for PBXNativeTarget "Game Room" */;
 			buildPhases = (
-				19234C2A422009CB91E780F3 /* Sources */,
-				B8B5B7E1438C859F1EDF14A7 /* Resources */,
-				8F03C73D3025BFCE9C00E9AD /* Embed Foundation Extensions */,
+				81FF903142259505E7E432F3 /* Sources */,
+				463BE10E96B5831A969B7157 /* Resources */,
+				C28D16E42019932F2305D571 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				733619FEF40FBC0F8F66D4AB /* PBXTargetDependency */,
 			);
 			name = "Game Room";
-			packageProductDependencies = (
-			);
 			productName = "Game Room";
 			productReference = 0034DDED1E330B67F5230D94 /* Game Room.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CEA3EBD4294E3C9A7C392784 /* Game Room Widget */ = {
+		8B9D7070A9F4F3850930085D /* Game RoomTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 048CE9A0F993B9530CC06440 /* Build configuration list for PBXNativeTarget "Game Room Widget" */;
+			buildConfigurationList = 9AC6C36A0116CE90FA1EAED1 /* Build configuration list for PBXNativeTarget "Game RoomTests" */;
 			buildPhases = (
-				0498C1D740009752405CA4FD /* Sources */,
+				0165B8BB84AFCD84AB9B1CFC /* Sources */,
+				14EF732D3096A6165DBA60D2 /* Frameworks */,
+				E5FCD4CEDA85BB454478D70A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				960E9CC61D742379F02EABF1 /* PBXTargetDependency */,
 			);
-			name = "Game Room Widget";
-			packageProductDependencies = (
+			name = "Game RoomTests";
+			productName = "Game RoomTests";
+			productReference = 3EEE4066C9F93F97064CC6DA /* Game RoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0696A45C542BB8F5FA4F532 /* Game RoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D3CED62DCC601FF8E7E3C3 /* Build configuration list for PBXNativeTarget "Game RoomUITests" */;
+			buildPhases = (
+				365675B989C36FA423435553 /* Sources */,
+				E69825BAB34C8CFDD1F57620 /* Frameworks */,
+				3A8FBBF4568223CE78BEF006 /* Resources */,
 			);
-			productName = "Game Room Widget";
-			productReference = F5B649EC3C3649B62FE53D59 /* Game Room Widget.appex */;
-			productType = "com.apple.product-type.app-extension";
+			buildRules = (
+			);
+			dependencies = (
+				CE955C826C7CC18AB5FF18E9 /* PBXTargetDependency */,
+			);
+			name = "Game RoomUITests";
+			productName = "Game RoomUITests";
+			productReference = 34A37916B85558AF3BFB84C8 /* Game RoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -168,6 +462,21 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					2EF1CB56EAE796BE9FFDC966 = {
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+				};
 			};
 			buildConfigurationList = EEA7B1360C077749B1BA5568 /* Build configuration list for PBXProject "Game Room" */;
 			developmentRegion = en;
@@ -184,63 +493,128 @@
 			projectRoot = "";
 			targets = (
 				2EF1CB56EAE796BE9FFDC966 /* Game Room */,
-				CEA3EBD4294E3C9A7C392784 /* Game Room Widget */,
+				8B9D7070A9F4F3850930085D /* Game RoomTests */,
+				E0696A45C542BB8F5FA4F532 /* Game RoomUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B8B5B7E1438C859F1EDF14A7 /* Resources */ = {
+		3A8FBBF4568223CE78BEF006 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC90D1286A17458850D50D6F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		463BE10E96B5831A969B7157 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1361E3CF544BDB97169851A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5FCD4CEDA85BB454478D70A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0498C1D740009752405CA4FD /* Sources */ = {
+		0165B8BB84AFCD84AB9B1CFC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DCCD00137F713E4177951D0C /* GameRoomWidget.swift in Sources */,
+				F20A457E8BD3CDE61D21F0F2 /* GameRoomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		19234C2A422009CB91E780F3 /* Sources */ = {
+		365675B989C36FA423435553 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DC1B254132E2F665CCE3AF6 /* AddGameView.swift in Sources */,
-				611E2C88517819F61ED26FA9 /* App.swift in Sources */,
-				9A2524FB145039C5E6B1FD15 /* CaptureMomentView.swift in Sources */,
-				BB64DABDB360246E788E5C4E /* ContentView.swift in Sources */,
-				DFE8656D36E9A84F6D492E3C /* Game.swift in Sources */,
-				0C94A2BA8289C0F9C040D8FA /* GameCardView.swift in Sources */,
-				390A0F9FA6BCF857AC638B73 /* GameDetailView.swift in Sources */,
-				87698A529A5CC8BEC365F741 /* GameGalleryView.swift in Sources */,
-				30820030DC01B636E18CAA7A /* GameObjectView.swift in Sources */,
-				CBBA83047859D12696BF5618 /* MemoryHomeView.swift in Sources */,
-				9EAD814CD6529C0E6049D1FC /* MomentDetailView.swift in Sources */,
-				6365528162114C161C3FC22E /* PlatformObjectView.swift in Sources */,
-				C54C5D8F0A93FCB901921264 /* SettingsView.swift in Sources */,
-				C7C4C79545367EC2B77BAA8E /* ShelfView.swift in Sources */,
+				FBC095261A697C2FABB41529 /* GameRoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81FF903142259505E7E432F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D41E6C827AD172E8B707DC4 /* AppRootView.swift in Sources */,
+				8521428376BD40CE11DC91E2 /* GameRoomApp.swift in Sources */,
+				925D035F098E6294133EB334 /* ModelContainerFactory.swift in Sources */,
+				B90FE3F6A7CD917B57613C18 /* AppTheme.swift in Sources */,
+				68096DA191D162394A55BB86 /* StoredImageView.swift in Sources */,
+				C0C6B37A79FA9425E669D62F /* GameDomain.swift in Sources */,
+				856CAB94A70F12B7259B603D /* Models.swift in Sources */,
+				3EF5EACCE37580EAE739E208 /* AddGameView.swift in Sources */,
+				02A1BD039E5885F2B869DF30 /* GameDetailView.swift in Sources */,
+				0747B7435792E90E821F1E3F /* GameObjectView.swift in Sources */,
+				F55DA4104E50E211B9C6E7D0 /* MemoryHomeView.swift in Sources */,
+				FF0720AEA5E9766A4631DB51 /* CaptureMomentView.swift in Sources */,
+				6D1FF219A583CC01A9420D5F /* MomentDetailView.swift in Sources */,
+				F8E39DAD82D2176905B6C59F /* OnboardingView.swift in Sources */,
+				3B9749A535EA256A9D3A69CB /* SettingsView.swift in Sources */,
+				0940C66FC84D4918B823C225 /* ShelfView.swift in Sources */,
+				3E6C1E6A6E4F9B7FAD8E92BF /* ImagePipeline.swift in Sources */,
+				39470EB8A535A2AFFDB6A41D /* NotificationScheduler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		733619FEF40FBC0F8F66D4AB /* PBXTargetDependency */ = {
+		960E9CC61D742379F02EABF1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CEA3EBD4294E3C9A7C392784 /* Game Room Widget */;
-			targetProxy = 37E4DFFC53D7498E237A6909 /* PBXContainerItemProxy */;
+			name = "Game Room";
+			target = 2EF1CB56EAE796BE9FFDC966 /* Game Room */;
+			targetProxy = 5D1036BF05FA1106413706EC /* PBXContainerItemProxy */;
+		};
+		CE955C826C7CC18AB5FF18E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Game Room";
+			target = 2EF1CB56EAE796BE9FFDC966 /* Game Room */;
+			targetProxy = 257E023C1A12C50D6CED9F37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		31319C28E68D8202235D501A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnrz.gameroom.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Game Room";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3179839862D08D565698081E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnrz.gameroom.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game Room.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game Room";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		36D3E44CB800230D098A61DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -250,7 +624,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = App/Info.plist;
+				"INFOPLIST_FILE[sdk=macosx*]" = "App/Info-macOS.plist";
+				"INFOPLIST_KEY_NSPrincipalClass[sdk=macosx*]" = NSApplication;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -258,73 +635,45 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.970a7539-7948-4f5a-a34a-5eaeb24e13f7";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnrz.gameroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Debug;
 		};
-		714F182CC962EA8366112F60 /* Release */ = {
+		5A09DDCDE23B3D6544C9D797 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Widget/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.970a7539-7948-4f5a-a34a-5eaeb24e13f7.widget-extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnrz.gameroom.tests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Game Room.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Game Room";
 			};
-			name = Release;
+			name = Debug;
 		};
-		7B1046ED81A1D89A90AD5271 /* Debug */ = {
+		9FA9D585EC118C61D7506755 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				CODE_SIGN_ENTITLEMENTS = Widget/Widget.entitlements;
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
-				CURRENT_PROJECT_VERSION = 1;
-				INFOPLIST_FILE = Widget/Info.plist;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 26.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.970a7539-7948-4f5a-a34a-5eaeb24e13f7.widget-extension";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
-				SUPPORTS_MACCATALYST = NO;
-				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = YES;
-				SWIFT_VERSION = 5.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnrz.gameroom.uitests;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Game Room";
 			};
 			name = Debug;
 		};
@@ -456,7 +805,10 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = App/Info.plist;
+				"INFOPLIST_FILE[sdk=macosx*]" = "App/Info-macOS.plist";
+				"INFOPLIST_KEY_NSPrincipalClass[sdk=macosx*]" = NSApplication;
 				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -464,30 +816,22 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "app.bitrig.new.970a7539-7948-4f5a-a34a-5eaeb24e13f7";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vnrz.gameroom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				XROS_DEPLOYMENT_TARGET = 26.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		048CE9A0F993B9530CC06440 /* Build configuration list for PBXNativeTarget "Game Room Widget" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7B1046ED81A1D89A90AD5271 /* Debug */,
-				714F182CC962EA8366112F60 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
 		20978472B67D69692401A1C7 /* Build configuration list for PBXNativeTarget "Game Room" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -496,6 +840,24 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
+		};
+		21D3CED62DCC601FF8E7E3C3 /* Build configuration list for PBXNativeTarget "Game RoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31319C28E68D8202235D501A /* Release */,
+				9FA9D585EC118C61D7506755 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AC6C36A0116CE90FA1EAED1 /* Build configuration list for PBXNativeTarget "Game RoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3179839862D08D565698081E /* Release */,
+				5A09DDCDE23B3D6544C9D797 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EEA7B1360C077749B1BA5568 /* Build configuration list for PBXProject "Game Room" */ = {
 			isa = XCConfigurationList;
