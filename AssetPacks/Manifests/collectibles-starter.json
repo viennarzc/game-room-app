@@ -1,0 +1,15 @@
+{
+  "assetPackID": "collectibles-starter",
+  "downloadPolicy": {
+    "onDemand": {}
+  },
+  "fileSelectors": [
+    { "file": "Collectibles/controller-late-2010s-symmetric.webp" },
+    { "file": "Collectibles/controller-eight-bit-rectangular.webp" },
+    { "file": "Collectibles/controller-sixteen-bit-rounded.webp" },
+    { "file": "Collectibles/controller-mid-1990s-dual-grip.webp" },
+    { "file": "Collectibles/handheld-monochrome-vertical.webp" },
+    { "file": "Collectibles/handheld-early-2000s-wide.webp" }
+  ],
+  "platforms": ["iOS", "macOS", "visionOS"]
+}

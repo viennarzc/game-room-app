@@ -13,10 +13,18 @@
   },
   "targets": {
     "Game Room": {
-      "deploymentTarget": "26.0",
+      "dependencies": [
+        {
+          "target": "Game Room Background Assets"
+        }
+      ],
+      "deploymentTarget": "17.0",
       "entitlements": {
         "path": "App/New Project.entitlements",
         "properties": {
+          "com.apple.security.application-groups": [
+            "group.com.vnrz.gameroom"
+          ],
           "com.apple.developer.icloud-container-identifiers": [
             "iCloud.com.vnrz.gameroom"
           ],
@@ -30,6 +38,9 @@
       "info": {
         "path": "App/Info.plist",
         "properties": {
+          "BAAppGroupID": "group.com.vnrz.gameroom",
+          "BAHasManagedAssetPacks": true,
+          "BAUsesAppleHosting": true,
           "CFBundleDisplayName": "Game Room",
           "LSApplicationCategoryType": "public.app-category.games",
           "CFBundleShortVersionString": "1.0",
@@ -54,10 +65,14 @@
           "ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME": "AccentColor",
           "CURRENT_PROJECT_VERSION": "1",
           "INFOPLIST_FILE[sdk=macosx*]": "App/Info-macOS.plist",
+          "IPHONEOS_DEPLOYMENT_TARGET": "17.0",
           "MARKETING_VERSION": "1.0",
+          "MACOSX_DEPLOYMENT_TARGET": "14.0",
+          "OTHER_LDFLAGS": "$(inherited) -weak_framework BackgroundAssets",
           "PRODUCT_BUNDLE_IDENTIFIER": "com.vnrz.gameroom",
           "PRODUCT_NAME": "$(TARGET_NAME)",
-          "SWIFT_VERSION": "6.0"
+          "SWIFT_VERSION": "6.0",
+          "XROS_DEPLOYMENT_TARGET": "1.0"
         },
         "configs": {
           "Debug": {
@@ -82,13 +97,65 @@
       ],
       "type": "application"
     },
+    "Game Room Background Assets": {
+      "deploymentTarget": "26.0",
+      "entitlements": {
+        "path": "BackgroundAssetsExtension/BackgroundAssetsExtension.entitlements",
+        "properties": {
+          "com.apple.security.application-groups": [
+            "group.com.vnrz.gameroom"
+          ]
+        }
+      },
+      "info": {
+        "path": "BackgroundAssetsExtension/Info.plist",
+        "properties": {
+          "CFBundleDisplayName": "Game Room Assets",
+          "EXAppExtensionAttributes": {
+            "EXExtensionPointIdentifier": "com.apple.background-asset-downloader-extension"
+          }
+        }
+      },
+      "platform": "auto",
+      "settings": {
+        "base": {
+          "APPLICATION_EXTENSION_API_ONLY": "YES",
+          "CURRENT_PROJECT_VERSION": "1",
+          "MARKETING_VERSION": "1.0",
+          "PRODUCT_BUNDLE_IDENTIFIER": "com.vnrz.gameroom.background-assets",
+          "SKIP_INSTALL": "YES",
+          "SWIFT_VERSION": "6.0"
+        },
+        "configs": {
+          "Debug": {
+            "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator macosx xros xrsimulator",
+            "TARGETED_DEVICE_FAMILY": "1,2,7"
+          },
+          "Release": {
+            "SUPPORTED_PLATFORMS": "iphoneos iphonesimulator",
+            "TARGETED_DEVICE_FAMILY": "1,2"
+          }
+        }
+      },
+      "sources": [
+        {
+          "path": "BackgroundAssetsExtension"
+        }
+      ],
+      "supportedDestinations": [
+        "iOS",
+        "macOS",
+        "visionOS"
+      ],
+      "type": "extensionkit-extension"
+    },
     "Game RoomTests": {
       "dependencies": [
         {
           "target": "Game Room"
         }
       ],
-      "deploymentTarget": "26.0",
+      "deploymentTarget": "17.0",
       "platform": "iOS",
       "settings": {
         "GENERATE_INFOPLIST_FILE": "YES",
@@ -108,7 +175,7 @@
           "target": "Game Room"
         }
       ],
-      "deploymentTarget": "26.0",
+      "deploymentTarget": "17.0",
       "platform": "iOS",
       "settings": {
         "GENERATE_INFOPLIST_FILE": "YES",

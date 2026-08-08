@@ -1,0 +1,16 @@
+{
+  "assetPackID": "collectibles-nintendo-history",
+  "downloadPolicy": {
+    "onDemand": {}
+  },
+  "fileSelectors": [
+    { "file": "Collectibles/controller-three-prong.webp" },
+    { "file": "Collectibles/console-compact-cube.webp" },
+    { "file": "Collectibles/console-motion-slim.webp" },
+    { "file": "Collectibles/console-tablet-hybrid.webp" },
+    { "file": "Collectibles/handheld-color-vertical.webp" },
+    { "file": "Collectibles/handheld-dual-screen.webp" },
+    { "file": "Collectibles/handheld-dual-screen-dimensional.webp" }
+  ],
+  "platforms": ["iOS", "macOS", "visionOS"]
+}

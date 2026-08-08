@@ -15,6 +15,19 @@ struct AppRootView: View {
 
 struct AppTabView: View {
   var body: some View {
+    Group {
+      if #available(iOS 18.0, macOS 15.0, visionOS 2.0, *) {
+        ModernAppTabView()
+      } else {
+        LegacyAppTabView()
+      }
+    }
+  }
+}
+
+@available(iOS 18.0, macOS 15.0, visionOS 2.0, *)
+private struct ModernAppTabView: View {
+  var body: some View {
     TabView {
       Tab("Memory", systemImage: "sparkles") {
         MemoryHomeView()
@@ -27,6 +40,27 @@ struct AppTabView: View {
       Tab("Settings", systemImage: "gearshape.fill") {
         SettingsView()
       }
+    }
+  }
+}
+
+private struct LegacyAppTabView: View {
+  var body: some View {
+    TabView {
+      MemoryHomeView()
+        .tabItem {
+          Label("Memory", systemImage: "sparkles")
+        }
+
+      ShelfView()
+        .tabItem {
+          Label("Shelf", systemImage: "books.vertical.fill")
+        }
+
+      SettingsView()
+        .tabItem {
+          Label("Settings", systemImage: "gearshape.fill")
+        }
     }
   }
 }

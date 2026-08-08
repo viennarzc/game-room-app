@@ -1,0 +1,17 @@
+{
+  "assetPackID": "collectibles-sega-arcade",
+  "downloadPolicy": {
+    "onDemand": {}
+  },
+  "fileSelectors": [
+    { "file": "Collectibles/controller-six-button-classic.webp" },
+    { "file": "Collectibles/controller-disc-era-round.webp" },
+    { "file": "Collectibles/console-disc-era-white.webp" },
+    { "file": "Collectibles/handheld-landscape-classic.webp" },
+    { "file": "Collectibles/console-woodgrain-classic.webp" },
+    { "file": "Collectibles/console-compact-card-based.webp" },
+    { "file": "Collectibles/console-premium-cartridge.webp" },
+    { "file": "Collectibles/arcade-cabinet.webp" }
+  ],
+  "platforms": ["iOS", "macOS", "visionOS"]
+}

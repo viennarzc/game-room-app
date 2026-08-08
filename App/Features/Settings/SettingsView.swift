@@ -41,6 +41,18 @@ struct SettingsView: View {
           Toggle("Reduce decorative motion", isOn: $reduceDecorativeMotion)
         }
 
+        Section {
+          NavigationLink {
+            CollectibleGalleryView()
+          } label: {
+            Label("Collectible Gallery", systemImage: "square.grid.2x2")
+          }
+        } header: {
+          Text("Collectibles")
+        } footer: {
+          Text("Browse optional platform and game-media artwork. Each collection downloads only when you open it.")
+        }
+
         Section("Memory") {
           Toggle("Resurface older memories", isOn: $memoryResurfacing)
         }
@@ -104,12 +116,7 @@ private struct ProfileSettingsView: View {
       }
 
       Section("Favorite platform") {
-        Picker("Favorite", selection: $favoritePlatform) {
-          Text("Not set").tag(GamingPlatform?.none)
-          ForEach(GamingPlatform.allCases) { platform in
-            Text(platform.rawValue).tag(Optional(platform))
-          }
-        }
+        FavoritePlatformPicker(selection: $favoritePlatform)
       }
 
       Section("Platforms you own") {

@@ -37,3 +37,8 @@ node_modules/
 # Build
 build/
 build-*/
+
+# Generated Background Assets inputs and archives. Optimized payloads remain tracked.
+AssetPacks/Content/
+AssetPacks/Archives/
+*.aar

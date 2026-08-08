@@ -204,20 +204,14 @@ private struct OnboardingStepContent: View {
 }
 
 private struct WelcomeOnboardingStep: View {
-  @Environment(\.appTheme) private var theme
-
   var body: some View {
     ScrollView {
       VStack(alignment: .leading, spacing: 24) {
-        Image(systemName: "books.vertical.fill")
-          .font(.system(size: 58, weight: .light))
-          .foregroundStyle(theme.color(.accent))
-          .accessibilityHidden(true)
-        Text("A shelf for your gaming life")
-          .font(.largeTitle.bold())
-        Text("Collect the games that matter and save the moments you want to remember.")
-          .font(.title3)
-          .foregroundStyle(theme.color(.textSecondary))
+        CollectibleHeroCard(
+          asset: .currentSculpturalHomeConsole,
+          title: "A shelf for your gaming life",
+          description: "Collect the games that matter and save the moments you want to remember."
+        )
         PrivacyPromise()
       }
       .padding(24)
@@ -274,23 +268,20 @@ private struct PlatformsOnboardingStep: View {
   var body: some View {
     Form {
       Section("Favorite platform") {
-        Picker("Favorite", selection: $favoritePlatform) {
-          Text("Not set").tag(GamingPlatform?.none)
-          ForEach(GamingPlatform.allCases) { platform in
-            Text(platform.rawValue).tag(Optional(platform))
-          }
-        }
+        FavoritePlatformPicker(selection: $favoritePlatform)
       }
 
       Section("Platforms you own") {
         ForEach(GamingPlatform.allCases.filter { $0 != .other }) { platform in
-          Toggle(platform.rawValue, isOn: Binding(
+          Toggle(isOn: Binding(
             get: { ownedPlatforms.contains(platform) },
             set: { isSelected in
               if isSelected { ownedPlatforms.insert(platform) }
               else { ownedPlatforms.remove(platform) }
             }
-          ))
+          )) {
+            Label(platform.rawValue, systemImage: platform.pickerSymbolName)
+          }
         }
       }
     }

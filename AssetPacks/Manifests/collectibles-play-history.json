@@ -1,0 +1,13 @@
+{
+  "assetPackID": "collectibles-play-history",
+  "downloadPolicy": {
+    "onDemand": {}
+  },
+  "fileSelectors": [
+    { "file": "Collectibles/console-early-2000s-black.webp" },
+    { "file": "Collectibles/console-late-2000s-glossy.webp" },
+    { "file": "Collectibles/handheld-mid-2000s-disc.webp" },
+    { "file": "Collectibles/handheld-early-2010s-touch.webp" }
+  ],
+  "platforms": ["iOS", "macOS", "visionOS"]
+}

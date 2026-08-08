@@ -1,0 +1,12 @@
+{
+  "assetPackID": "collectibles-xbox-history",
+  "downloadPolicy": {
+    "onDemand": {}
+  },
+  "fileSelectors": [
+    { "file": "Collectibles/console-early-2000s-bold.webp" },
+    { "file": "Collectibles/console-mid-2000s-white.webp" },
+    { "file": "Collectibles/console-late-2010s-flat.webp" }
+  ],
+  "platforms": ["iOS", "macOS", "visionOS"]
+}

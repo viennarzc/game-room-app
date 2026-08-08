@@ -1,0 +1,20 @@
+{
+  "assetPackID": "collectibles-game-media",
+  "downloadPolicy": {
+    "onDemand": {}
+  },
+  "fileSelectors": [
+    { "file": "Collectibles/game-case-tall-optical.webp" },
+    { "file": "Collectibles/game-case-slim-hybrid.webp" },
+    { "file": "Collectibles/game-cartridge-eight-bit.webp" },
+    { "file": "Collectibles/game-cartridge-sixteen-bit.webp" },
+    { "file": "Collectibles/game-card-handheld.webp" },
+    { "file": "Collectibles/game-disc.webp" },
+    { "file": "Collectibles/game-collector-box.webp" },
+    { "file": "Collectibles/digital-library-card.webp" },
+    { "file": "Collectibles/memory-card.webp" },
+    { "file": "Collectibles/save-file-card.webp" },
+    { "file": "Collectibles/moment-photo.webp" }
+  ],
+  "platforms": ["iOS", "macOS", "visionOS"]
+}

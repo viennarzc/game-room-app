@@ -1,0 +1,19 @@
+{
+  "assetPackID": "collectibles-current",
+  "downloadPolicy": {
+    "onDemand": {}
+  },
+  "fileSelectors": [
+    { "file": "Collectibles/current-sculptural-home-console.webp" },
+    { "file": "Collectibles/current-black-tower-console.webp" },
+    { "file": "Collectibles/current-compact-digital-console.webp" },
+    { "file": "Collectibles/current-next-hybrid-console.webp" },
+    { "file": "Collectibles/current-classic-hybrid-console.webp" },
+    { "file": "Collectibles/current-handheld-gaming-pc.webp" },
+    { "file": "Collectibles/current-desktop-gaming-pc.webp" },
+    { "file": "Collectibles/current-gaming-laptop.webp" },
+    { "file": "Collectibles/current-mobile-gaming.webp" },
+    { "file": "Collectibles/current-spatial-gaming-headset.webp" }
+  ],
+  "platforms": ["iOS", "macOS", "visionOS"]
+}

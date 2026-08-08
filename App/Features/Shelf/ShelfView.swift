@@ -149,11 +149,12 @@ private struct ShelfEmptyState: View {
       ContentUnavailableView.search(text: searchText)
         .frame(maxWidth: .infinity, minHeight: 360)
     } else {
-      ContentUnavailableView {
-        Label("Your shelf is empty", systemImage: "books.vertical")
-      } description: {
-        Text("Add your first game to begin the collection.")
-      } actions: {
+      VStack(spacing: 18) {
+        CollectibleHeroCard(
+          asset: .gameCaseTallOptical,
+          title: "Your shelf is waiting",
+          description: "Add your first game to begin a collection that is entirely your own."
+        )
         Button("Add a Game", systemImage: "plus", action: addGame)
           .buttonStyle(.borderedProminent)
       }

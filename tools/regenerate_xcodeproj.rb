@@ -13,8 +13,17 @@ project = Xcodeproj::Project.open(PROJECT_PATH)
 main_target = project.targets.find { |target| target.name == "Game Room" }
 abort("Game Room target not found") unless main_target
 
-desired_target_names = ["Game Room", "Game RoomTests", "Game RoomUITests"]
+desired_target_names = [
+  "Game Room",
+  "Game Room Background Assets",
+  "Game RoomTests",
+  "Game RoomUITests"
+]
 project.targets.reject { |target| desired_target_names.include?(target.name) }.each(&:remove_from_project)
+
+assets_target = project.targets.find { |target| target.name == "Game Room Background Assets" }
+assets_target ||= project.new_target(:app_extension, "Game Room Background Assets", :ios, "26.0")
+assets_target.product_type = "com.apple.product-type.extensionkit-extension"
 
 unit_target = project.targets.find { |target| target.name == "Game RoomTests" }
 unit_target ||= project.new_target(:unit_test_bundle, "Game RoomTests", :ios, "26.0")
@@ -22,11 +31,11 @@ unit_target ||= project.new_target(:unit_test_bundle, "Game RoomTests", :ios, "2
 ui_target = project.targets.find { |target| target.name == "Game RoomUITests" }
 ui_target ||= project.new_target(:ui_test_bundle, "Game RoomUITests", :ios, "26.0")
 
-[main_target, unit_target, ui_target].each do |target|
+[main_target, assets_target, unit_target, ui_target].each do |target|
   target.dependencies.each(&:remove_from_project)
 end
 
-desired_products = [main_target, unit_target, ui_target].map(&:product_reference)
+desired_products = [main_target, assets_target, unit_target, ui_target].map(&:product_reference)
 project.products_group.children.dup.each do |product|
   next if desired_products.include?(product)
   product.remove_from_project
@@ -39,6 +48,14 @@ main_frameworks_phase = project.new(Xcodeproj::Project::Object::PBXFrameworksBui
 main_target.build_phases << main_sources_phase
 main_target.build_phases << main_resources_phase
 main_target.build_phases << main_frameworks_phase
+main_embed_phase = project.new(Xcodeproj::Project::Object::PBXCopyFilesBuildPhase)
+main_embed_phase.name = "Embed Foundation Extensions"
+main_embed_phase.dst_subfolder_spec = "16"
+embedded_assets = main_embed_phase.add_file_reference(assets_target.product_reference, true)
+embedded_assets.settings = {
+  "ATTRIBUTES" => ["CodeSignOnCopy", "RemoveHeadersOnCopy"]
+}
+main_target.build_phases << main_embed_phase
 
 project.main_group.children.dup.each do |child|
   next if child == project.products_group
@@ -66,6 +83,7 @@ def add_directory(group, absolute_path, source_phase: nil, resource_phase: nil)
     else
       reference = group.new_file(entry)
       source_phase&.add_file_reference(reference) if File.extname(entry) == ".swift"
+      resource_phase&.add_file_reference(reference) if File.extname(entry) == ".webp"
     end
   end
 end
@@ -76,6 +94,17 @@ add_directory(
   File.join(ROOT, "App"),
   source_phase: main_sources_phase,
   resource_phase: main_resources_phase
+)
+
+assets_extension_group = project.main_group.new_group(
+  "BackgroundAssetsExtension",
+  "BackgroundAssetsExtension"
+)
+assets_target.source_build_phase.files.dup.each(&:remove_from_project)
+add_directory(
+  assets_extension_group,
+  File.join(ROOT, "BackgroundAssetsExtension"),
+  source_phase: assets_target.source_build_phase
 )
 
 tests_group = project.main_group.new_group("Tests", "Tests")
@@ -98,14 +127,15 @@ def configure_main_target(target)
     settings["GENERATE_INFOPLIST_FILE"] = "NO"
     settings["INFOPLIST_FILE"] = "App/Info.plist"
     settings["INFOPLIST_FILE[sdk=macosx*]"] = "App/Info-macOS.plist"
-    settings["IPHONEOS_DEPLOYMENT_TARGET"] = "26.0"
-    settings["MACOSX_DEPLOYMENT_TARGET"] = "26.0"
+    settings["IPHONEOS_DEPLOYMENT_TARGET"] = "17.0"
+    settings["MACOSX_DEPLOYMENT_TARGET"] = "14.0"
     settings["MARKETING_VERSION"] = "1.0"
+    settings["OTHER_LDFLAGS"] = "$(inherited) -weak_framework BackgroundAssets"
     settings["PRODUCT_BUNDLE_IDENTIFIER"] = "com.vnrz.gameroom"
     settings["PRODUCT_NAME"] = "$(TARGET_NAME)"
     settings["SDKROOT"] = "auto"
     settings["SWIFT_VERSION"] = "6.0"
-    settings["XROS_DEPLOYMENT_TARGET"] = "26.0"
+    settings["XROS_DEPLOYMENT_TARGET"] = "1.0"
 
     if configuration.name == "Debug"
       settings["SUPPORTED_PLATFORMS"] = "iphoneos iphonesimulator macosx xros xrsimulator"
@@ -118,6 +148,33 @@ def configure_main_target(target)
 end
 
 configure_main_target(main_target)
+main_target.add_dependency(assets_target)
+
+assets_target.build_configurations.each do |configuration|
+  settings = configuration.build_settings
+  settings["APPLICATION_EXTENSION_API_ONLY"] = "YES"
+  settings["CODE_SIGN_ENTITLEMENTS"] = "BackgroundAssetsExtension/BackgroundAssetsExtension.entitlements"
+  settings["CURRENT_PROJECT_VERSION"] = "1"
+  settings["GENERATE_INFOPLIST_FILE"] = "NO"
+  settings["INFOPLIST_FILE"] = "BackgroundAssetsExtension/Info.plist"
+  settings["IPHONEOS_DEPLOYMENT_TARGET"] = "26.0"
+  settings["MACOSX_DEPLOYMENT_TARGET"] = "26.0"
+  settings["MARKETING_VERSION"] = "1.0"
+  settings["PRODUCT_BUNDLE_IDENTIFIER"] = "com.vnrz.gameroom.background-assets"
+  settings["PRODUCT_NAME"] = "$(TARGET_NAME)"
+  settings["SDKROOT"] = "auto"
+  settings["SKIP_INSTALL"] = "YES"
+  settings["SWIFT_VERSION"] = "6.0"
+  settings["XROS_DEPLOYMENT_TARGET"] = "26.0"
+
+  if configuration.name == "Debug"
+    settings["SUPPORTED_PLATFORMS"] = "iphoneos iphonesimulator macosx xros xrsimulator"
+    settings["TARGETED_DEVICE_FAMILY"] = "1,2,7"
+  else
+    settings["SUPPORTED_PLATFORMS"] = "iphoneos iphonesimulator"
+    settings["TARGETED_DEVICE_FAMILY"] = "1,2"
+  end
+end
 
 project.root_object.attributes["TargetAttributes"] = {
   main_target.uuid => {
@@ -125,6 +182,11 @@ project.root_object.attributes["TargetAttributes"] = {
       "com.apple.BackgroundModes" => { "enabled" => 1 },
       "com.apple.iCloud" => { "enabled" => 1 },
       "com.apple.Push" => { "enabled" => 1 }
+    }
+  },
+  assets_target.uuid => {
+    "SystemCapabilities" => {
+      "com.apple.ApplicationGroups.iOS" => { "enabled" => 1 }
     }
   }
 }
@@ -144,7 +206,7 @@ add_directory(ui_tests_group, File.join(ROOT, "UITests"), source_phase: ui_targe
   target.build_configurations.each do |configuration|
     settings = configuration.build_settings
     settings["GENERATE_INFOPLIST_FILE"] = "YES"
-    settings["IPHONEOS_DEPLOYMENT_TARGET"] = "26.0"
+    settings["IPHONEOS_DEPLOYMENT_TARGET"] = "17.0"
     settings["PRODUCT_BUNDLE_IDENTIFIER"] = bundle_identifier
     settings["SWIFT_VERSION"] = "6.0"
     settings["TARGETED_DEVICE_FAMILY"] = "1,2"

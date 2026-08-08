@@ -39,11 +39,7 @@ struct AddGameView: View {
         Section("Game") {
           TextField("Title", text: $title)
             .focused($isTitleFocused)
-          Picker("Platform", selection: $platform) {
-            ForEach(GamingPlatform.allCases) { platform in
-              Text(platform.rawValue).tag(platform)
-            }
-          }
+          GamePlatformPicker(selection: $platform)
           if platform == .other {
             TextField("Custom platform", text: $customPlatformName)
           }
@@ -155,11 +151,7 @@ struct EditGameView: View {
       Form {
         Section("Game") {
           TextField("Title", text: $title)
-          Picker("Platform", selection: $platform) {
-            ForEach(GamingPlatform.allCases) { platform in
-              Text(platform.rawValue).tag(platform)
-            }
-          }
+          GamePlatformPicker(selection: $platform)
           if platform == .other {
             TextField("Custom platform", text: $customPlatformName)
           }
@@ -213,6 +205,9 @@ struct EditGameView: View {
             coverImageData = ImagePipeline.downsizedJPEG(from: data)
           }
         }
+      }
+      .onChange(of: platform) { _, newPlatform in
+        objectStyle = newPlatform.defaultObjectStyle
       }
     }
   }

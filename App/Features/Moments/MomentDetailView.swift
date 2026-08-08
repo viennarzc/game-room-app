@@ -1,3 +1,4 @@
+import PhotosUI
 import SwiftData
 import SwiftUI
 
@@ -125,6 +126,8 @@ private struct EditMomentView: View {
   @State private var weather: String
   @State private var location: String
   @State private var vibe: String
+  @State private var photoItem: PhotosPickerItem?
+  @State private var photoData: Data?
 
   init(moment: GameMoment) {
     self.moment = moment
@@ -137,6 +140,7 @@ private struct EditMomentView: View {
     _weather = State(initialValue: moment.weatherLabel ?? "")
     _location = State(initialValue: moment.locationLabel ?? "")
     _vibe = State(initialValue: moment.vibe ?? "")
+    _photoData = State(initialValue: moment.photoData)
   }
 
   var body: some View {
@@ -152,6 +156,7 @@ private struct EditMomentView: View {
           TextField("Note", text: $note, axis: .vertical)
             .lineLimit(4...10)
         }
+        MomentPhotoPickerSection(photoItem: $photoItem, photoData: $photoData)
         MomentContextFields(
           mood: $mood,
           playedWith: $playedWith,
@@ -172,6 +177,14 @@ private struct EditMomentView: View {
           Button("Save", action: save)
         }
       }
+      .onChange(of: photoItem) { _, newItem in
+        guard let newItem else { return }
+        Task {
+          if let data = try? await newItem.loadTransferable(type: Data.self) {
+            photoData = ImagePipeline.downsizedJPEG(from: data)
+          }
+        }
+      }
     }
   }
 
@@ -185,9 +198,34 @@ private struct EditMomentView: View {
     moment.weatherLabel = weather.nilIfBlank
     moment.locationLabel = location.nilIfBlank
     moment.vibe = vibe.nilIfBlank
+    moment.photoData = photoData
     moment.updatedAt = .now
     try? modelContext.save()
     dismiss()
+  }
+}
+
+private struct MomentPhotoPickerSection: View {
+  @Binding var photoItem: PhotosPickerItem?
+  @Binding var photoData: Data?
+
+  var body: some View {
+    let hasPhoto = photoData != nil
+
+    Section("Photo") {
+      PhotosPicker(selection: $photoItem, matching: .images) {
+        Label(hasPhoto ? "Change Photo" : "Add Photo", systemImage: "photo")
+      }
+      if let photoData {
+        StoredImageView(data: photoData, contentMode: .fit)
+          .frame(maxHeight: 280)
+          .clipShape(RoundedRectangle(cornerRadius: 14))
+        Button("Remove Photo", role: .destructive) {
+          self.photoData = nil
+          photoItem = nil
+        }
+      }
+    }
   }
 }
 

@@ -5,7 +5,7 @@ tactile shelf of games and lightweight memories.
 
 ## Current release scope
 
-- iPhone and iPad are the release platforms.
+- iPhone and iPad running iOS 17 or later are the release platforms.
 - macOS and visionOS are supported as local Debug smoke-build destinations.
 - SwiftData is the source of truth and uses the private CloudKit container
   `iCloud.com.vnrz.gameroom` when the entitlement is available.
@@ -22,12 +22,18 @@ App/
   DesignSystem/   Environment theme and shared visual helpers
   Domain/         SwiftData models and stable domain values
   Data/           Model container configuration
-  Services/       Notifications and image processing
+  Services/       Notifications, image processing, and background assets
   Features/       Onboarding, memory, shelf, games, moments, settings
 ```
 
 Views use SwiftData queries and model bindings directly. Side effects that are
 hard to test or tied to Apple services live behind narrow services.
+
+Collectible artwork ships as a compact local WebP library so it is visible
+offline and on iOS 17. The same artwork is grouped into Apple-hosted Managed
+Background Asset packs under `AssetPacks/`; supported systems can refresh a
+collection without an app release. Native SF Symbols remain the final fallback
+if image decoding is unavailable.
 
 ## Local setup
 
@@ -35,7 +41,10 @@ hard to test or tied to Apple services live behind narrow services.
 2. Select a development team that owns `com.vnrz.gameroom`.
 3. Register `iCloud.com.vnrz.gameroom` and enable CloudKit.
 4. Initialize the development CloudKit schema before device sync testing.
-5. Build Debug for iPhone, iPad, My Mac, or a visionOS simulator.
+5. Build Debug for iPhone or iPad on iOS 17 or later; My Mac and visionOS
+   remain local smoke-build destinations.
+6. Register the App Group `group.com.vnrz.gameroom` for the app and its
+   Background Assets extension.
 
 Without usable iCloud signing, the app falls back to its local SwiftData store.
 Release builds are restricted to iOS destinations.
@@ -45,6 +54,9 @@ Release builds are restricted to iOS destinations.
 - Run `Game RoomTests` for persistence, theme, reminder identifier, and image
   pipeline checks.
 - Run `Game RoomUITests` on iOS for the clean onboarding path.
+- Package a local collectible update set with
+  `tools/package_background_assets.sh collectibles-starter` and test it using
+  Apple's Background Assets mock server.
 - Manually verify CloudKit synchronization on two signed-in devices before
   release.
 
