@@ -7,104 +7,105 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		017F4F8D7C5EBB741F15F2CD /* controller-mid-1990s-dual-grip.webp in Resources */ = {isa = PBXBuildFile; fileRef = 820B5DD87F96BC558C4682DD /* controller-mid-1990s-dual-grip.webp */; };
-		021513DFB2C673B071ACA2F1 /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1713DF9634D6E7B40852DDBD /* AppRootView.swift */; };
-		041140C659F48F8F46842FCF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A40CC89AA63B8E00C6A8206 /* OnboardingView.swift */; };
-		0440AB0A5A66F33A9B469F0A /* CollectibleAssetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA27EF66C464DA39B2290FB6 /* CollectibleAssetImage.swift */; };
-		08F5F9715AE395289CFBFB3F /* handheld-early-2000s-wide.webp in Resources */ = {isa = PBXBuildFile; fileRef = 05F170ED7689F173686B01D7 /* handheld-early-2000s-wide.webp */; };
-		0DE4475B999584350D2E3086 /* current-gaming-laptop.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7E6614C1464C988A7E84C761 /* current-gaming-laptop.webp */; };
-		0E1022A4C37F27DD5ACEF71D /* handheld-monochrome-vertical.webp in Resources */ = {isa = PBXBuildFile; fileRef = 242DAD243FBEFE1B0FA02D07 /* handheld-monochrome-vertical.webp */; };
-		13D0834A8981D4C0333DC1C7 /* console-compact-card-based.webp in Resources */ = {isa = PBXBuildFile; fileRef = 1B8A7FE3CC0F65530B7ACE1D /* console-compact-card-based.webp */; };
-		143F7FC6B6461978189401E5 /* handheld-dual-screen.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6FAB7CFCFF5230056325B366 /* handheld-dual-screen.webp */; };
-		14A0ED0F0C035FB8D7D1DBE1 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479A0931E100D1648BDADA87 /* GameDetailView.swift */; };
-		1636CC496D079689340EC0CE /* console-early-2000s-black.webp in Resources */ = {isa = PBXBuildFile; fileRef = 8F90D07AD962F0BE8231E3EF /* console-early-2000s-black.webp */; };
-		173E3A6DF8C031118F0B22FF /* Game Room Background Assets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5137DC755C0DA21F6F13E15C /* Game Room Background Assets.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		18D72B4CFE01CCE28C0F7EAA /* memory-card.webp in Resources */ = {isa = PBXBuildFile; fileRef = D7DDE7285F8943478BE99903 /* memory-card.webp */; };
+		01526667A0C585D3EFB3CD1E /* GameObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3381BAD66AC10ABB8CF3B49C /* GameObjectView.swift */; };
+		0F79C6E75C21B0868AF0E8B4 /* moment-photo.webp in Resources */ = {isa = PBXBuildFile; fileRef = DEF9440648514F20B1A035F2 /* moment-photo.webp */; };
+		1737F844BB661149375E5335 /* current-mobile-gaming.webp in Resources */ = {isa = PBXBuildFile; fileRef = 60ADFF27045E2B40BBD6D1AD /* current-mobile-gaming.webp */; };
+		1B0F6273AB6B2E04D9970489 /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0F1558AFF6074CE097FDA50 /* ShelfView.swift */; };
+		1DEBDA4503A571632F95ACF5 /* current-handheld-gaming-pc.webp in Resources */ = {isa = PBXBuildFile; fileRef = 12E9FC2584C021351A99BE15 /* current-handheld-gaming-pc.webp */; };
+		1EE30A3CF2E02AD164714D50 /* console-motion-slim.webp in Resources */ = {isa = PBXBuildFile; fileRef = 1102F5E4FE92632FD3A36379 /* console-motion-slim.webp */; };
+		1F3757DD03E419C9E0FF7EAD /* current-classic-hybrid-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = 27DDD6E3C62AF29E8B84C781 /* current-classic-hybrid-console.webp */; };
 		200C346CA5D00A68F1B4B90D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA51709A312BD3E32AA279F /* Foundation.framework */; };
-		26CABF3C6C9CACD15B8D80D4 /* console-compact-cube.webp in Resources */ = {isa = PBXBuildFile; fileRef = EC3A9ADCB02B635F11C6762E /* console-compact-cube.webp */; };
-		28C0E36E0159366C36097D32 /* current-mobile-gaming.webp in Resources */ = {isa = PBXBuildFile; fileRef = E6DCD06F6850FDE86A93C161 /* current-mobile-gaming.webp */; };
-		317ACCD2D4838C5B549FCDC2 /* current-spatial-gaming-headset.webp in Resources */ = {isa = PBXBuildFile; fileRef = BCE1EB7256471D7833459950 /* current-spatial-gaming-headset.webp */; };
-		39943776B20DAE3E372AD213 /* game-case-tall-optical.webp in Resources */ = {isa = PBXBuildFile; fileRef = C388E08F715F9EF1B7ADCDA0 /* game-case-tall-optical.webp */; };
-		3CB14B689D0F03A2F826F682 /* controller-disc-era-round.webp in Resources */ = {isa = PBXBuildFile; fileRef = 661C209BD466F61373D4D04A /* controller-disc-era-round.webp */; };
-		3DD7474A5431CC3AC19F5C97 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5949D93ED08F6A508454180F /* SettingsView.swift */; };
-		45A6177F6FD14D246D7552E5 /* controller-six-button-classic.webp in Resources */ = {isa = PBXBuildFile; fileRef = AE6AC557EF70D61FCA25304B /* controller-six-button-classic.webp */; };
-		467C0486122C37147731A6CE /* save-file-card.webp in Resources */ = {isa = PBXBuildFile; fileRef = D8ED7905D91C05FC228C590A /* save-file-card.webp */; };
-		47C388A0C37A6F504D7B04B7 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9265B6980D241E8E373D645A /* AppTheme.swift */; };
-		49ED6DBBF4E01600E4EBDA6E /* handheld-landscape-classic.webp in Resources */ = {isa = PBXBuildFile; fileRef = C14B53F4CE4686F53D308036 /* handheld-landscape-classic.webp */; };
-		4E456656F67CCD317B7D3ECB /* controller-eight-bit-rectangular.webp in Resources */ = {isa = PBXBuildFile; fileRef = B4E387D596FE200FE0C685DB /* controller-eight-bit-rectangular.webp */; };
-		53D7B4FE4B60AE08371DAC08 /* ModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F72B05E91E46F55B38DBF7E2 /* ModelContainerFactory.swift */; };
-		542D3B8815798D20E95A4F71 /* PlatformPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA6C8A8E48544214AEEF776F /* PlatformPicker.swift */; };
-		584C59D5A7A361EF5ED0574A /* GameRoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AAFF4BD59659F897F74B1 /* GameRoomApp.swift */; };
-		599F047DF1F2C4914453AA75 /* game-card-handheld.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4E94D8623D838F560122A7F5 /* game-card-handheld.webp */; };
-		5E6F79D914CB3DE76818FF6F /* current-black-tower-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = AE33A7BAA6699DBCA14E1D7F /* current-black-tower-console.webp */; };
-		60ACF45A3C87756CA29B4562 /* CollectibleAssetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55AFD3ADF53E21C4370747E /* CollectibleAssetRepository.swift */; };
-		68F243C7127ECB5E654061F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B283B13F8909F98A8DD5A27 /* Assets.xcassets */; };
-		6E1E37BCF714B69021102FC6 /* controller-sixteen-bit-rounded.webp in Resources */ = {isa = PBXBuildFile; fileRef = 62354FF2D13A27A235C1EECD /* controller-sixteen-bit-rounded.webp */; };
-		73E8338BC9AF5DD0794460BC /* current-classic-hybrid-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = D9369551BCFCBD3E656203BE /* current-classic-hybrid-console.webp */; };
-		76CFF4CA84D486FCB1DD19B7 /* game-collector-box.webp in Resources */ = {isa = PBXBuildFile; fileRef = C856BE660DBE97664773F5F9 /* game-collector-box.webp */; };
-		787B357C7DC7B30D4E33FF24 /* console-late-2000s-glossy.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6C7FBEC9C55FC45500A17280 /* console-late-2000s-glossy.webp */; };
-		79A35B138A4280C130921712 /* GameDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31895763FEB5A2AAB7F4D734 /* GameDomain.swift */; };
-		7F8F604A628A33181C86E55B /* DownloaderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8609F133768F35A62BEF985E /* DownloaderExtension.swift */; };
-		82E94BE7D9B0343B850DF976 /* arcade-cabinet.webp in Resources */ = {isa = PBXBuildFile; fileRef = 151F99ABB78BBB71A14A90FE /* arcade-cabinet.webp */; };
-		837380A4E9AAC07A9E0AF17C /* controller-three-prong.webp in Resources */ = {isa = PBXBuildFile; fileRef = 2F16863CA887E610B7B204D3 /* controller-three-prong.webp */; };
-		8DFEDB356CAA1608CD70B704 /* controller-late-2010s-symmetric.webp in Resources */ = {isa = PBXBuildFile; fileRef = 03676A10C92BFA1FA07477CC /* controller-late-2010s-symmetric.webp */; };
-		91FBC9D65CE975B4D49C5B6B /* MemoryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE10EF88F83C16C26E111E85 /* MemoryHomeView.swift */; };
-		940FE712FF1A0F916A8DE213 /* console-woodgrain-classic.webp in Resources */ = {isa = PBXBuildFile; fileRef = 96B696C4A4EC2C40F52FB57D /* console-woodgrain-classic.webp */; };
-		948B045D4A135C8281839890 /* game-cartridge-eight-bit.webp in Resources */ = {isa = PBXBuildFile; fileRef = 5B48C77AE094F1B0181E5733 /* game-cartridge-eight-bit.webp */; };
-		96CE58356A3050E2E3FBA425 /* ImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5943110DFED8089B5145C6 /* ImagePipeline.swift */; };
-		97C2B6C9E4C85191787F5B1A /* current-desktop-gaming-pc.webp in Resources */ = {isa = PBXBuildFile; fileRef = 98B250B63062439E185F47EB /* current-desktop-gaming-pc.webp */; };
-		981E47F8BD8906B979D212E8 /* current-sculptural-home-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = BE20D70E7D574662E9F615C2 /* current-sculptural-home-console.webp */; };
-		9968CA269C4433F34928C62E /* game-case-slim-hybrid.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4D333F98729C72F3D87C3604 /* game-case-slim-hybrid.webp */; };
-		9A55E11B3FAD1DA0EC5806C2 /* console-mid-2000s-white.webp in Resources */ = {isa = PBXBuildFile; fileRef = 9DB817679B5E55D3CDC13E1E /* console-mid-2000s-white.webp */; };
-		A12C69DBF8C98CB29F6F5F68 /* CollectibleAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C0230DC8B704015FFE445D3 /* CollectibleAssets.swift */; };
-		A3A6FB1159E17CD1131D6821 /* game-disc.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4063974600D8BCB5BCA81BFF /* game-disc.webp */; };
-		A8BF784629E77FF563FCA1F3 /* console-motion-slim.webp in Resources */ = {isa = PBXBuildFile; fileRef = 85FA178A1EDBA4F2EC28188C /* console-motion-slim.webp */; };
+		206DADD098DEEB07786BCF92 /* controller-mid-1990s-dual-grip.webp in Resources */ = {isa = PBXBuildFile; fileRef = DDB85BE34601A780F1397AE6 /* controller-mid-1990s-dual-grip.webp */; };
+		2538CF2960BFA02DEC4CDC2C /* CollectibleGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF72A7A9B58A658031D27608 /* CollectibleGalleryView.swift */; };
+		2621BD2E8307F1D8FB3CCD12 /* controller-late-2010s-symmetric.webp in Resources */ = {isa = PBXBuildFile; fileRef = ED86C54E0D1213BD67FE53C1 /* controller-late-2010s-symmetric.webp */; };
+		289B5612E5E4583B64B6CEB7 /* console-early-2000s-black.webp in Resources */ = {isa = PBXBuildFile; fileRef = 2BD80E21C05464A03EE2DB67 /* console-early-2000s-black.webp */; };
+		2C79137127E3787333D6016A /* game-cartridge-sixteen-bit.webp in Resources */ = {isa = PBXBuildFile; fileRef = 3FD2A972CE464C3521BF760D /* game-cartridge-sixteen-bit.webp */; };
+		2DC088930627628631AE39B7 /* handheld-mid-2000s-disc.webp in Resources */ = {isa = PBXBuildFile; fileRef = 74DFD1F2221402CBAFF674BC /* handheld-mid-2000s-disc.webp */; };
+		2F2ECDE54CF0B528B9D52CBD /* current-sculptural-home-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = 0755A1CC0BBE77521584A844 /* current-sculptural-home-console.webp */; };
+		301CBC275CC12DB9E689B537 /* ImagePipeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6FCF6DA155AE21D51A03A1 /* ImagePipeline.swift */; };
+		31B2C0BDFA4A2B32D566F91D /* GameDomain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329F764CECE66C0AC751E385 /* GameDomain.swift */; };
+		321117D9942E2F70BE3F4F68 /* game-collector-box.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7714E5128B5F386F9CFDD4F1 /* game-collector-box.webp */; };
+		33ECCFDD7F72B2BBA1C92B82 /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDA34C822F433EA8054D5A3 /* NotificationScheduler.swift */; };
+		36579D9B050A66AB195C475D /* console-compact-cube.webp in Resources */ = {isa = PBXBuildFile; fileRef = 83B758FDC900AEB1F91F3A66 /* console-compact-cube.webp */; };
+		3946DCDA20AA0D5BEDDF2AC1 /* console-mid-2000s-white.webp in Resources */ = {isa = PBXBuildFile; fileRef = 801803F760BA1BF9FA5FF420 /* console-mid-2000s-white.webp */; };
+		3997429FD2BFD46F6EDFBCA2 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66FB429079B8E83F6D446F39 /* OnboardingView.swift */; };
+		39EE92A1A5E968282DD8B0C1 /* handheld-color-vertical.webp in Resources */ = {isa = PBXBuildFile; fileRef = 5ACC6C395B199FC38FFA9713 /* handheld-color-vertical.webp */; };
+		3A442C6468B3837130FB6163 /* handheld-monochrome-vertical.webp in Resources */ = {isa = PBXBuildFile; fileRef = 2CDD043238FB4859DEA96D34 /* handheld-monochrome-vertical.webp */; };
+		3B471D0D0AE589D9ECD7C28C /* current-gaming-laptop.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6A7309C1133A7A1239505CC2 /* current-gaming-laptop.webp */; };
+		3ED3BC214CD05C7F7C1E8F7B /* DownloaderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC83A1074DBB0DD898D07E04 /* DownloaderExtension.swift */; };
+		4445609194D45960D7D479C9 /* game-disc.webp in Resources */ = {isa = PBXBuildFile; fileRef = 72EAEB2377867512193CB6BD /* game-disc.webp */; };
+		4D504BD15588C4B45B619D19 /* PlatformPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA855AD25D2EEC19355F655 /* PlatformPicker.swift */; };
+		4F866930EC65CF4DFE85CA25 /* controller-six-button-classic.webp in Resources */ = {isa = PBXBuildFile; fileRef = 99B2CE1C2DB80AE90F2D28BD /* controller-six-button-classic.webp */; };
+		51BB84E3281A243A081242EC /* console-disc-era-white.webp in Resources */ = {isa = PBXBuildFile; fileRef = E78D1B9FBBC350995CEFE424 /* console-disc-era-white.webp */; };
+		51C21B9C4A77387E441C4394 /* AppNavigationSplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75546354386653F563C7E13F /* AppNavigationSplitView.swift */; };
+		589D49D61F6127A67CCA023C /* controller-disc-era-round.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7A828EBF3836DEE27315F645 /* controller-disc-era-round.webp */; };
+		5C6A8516B2DDE1E736422074 /* console-tablet-hybrid.webp in Resources */ = {isa = PBXBuildFile; fileRef = A910331114CD51CA4CF521BE /* console-tablet-hybrid.webp */; };
+		5D767B9B4A92E3552DD946B6 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E6791DED311BC298CCA6EA /* Models.swift */; };
+		5F97719A09DCE3685D5384E2 /* ModelContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95E330E2373A6F15A87F588 /* ModelContainerFactory.swift */; };
+		629AB8D683F6F1117DD51B5D /* game-case-slim-hybrid.webp in Resources */ = {isa = PBXBuildFile; fileRef = D79F02DC5187F16E10571727 /* game-case-slim-hybrid.webp */; };
+		6667E280F39A74E5D8C469B6 /* console-early-2000s-bold.webp in Resources */ = {isa = PBXBuildFile; fileRef = 9FA234137E05BAA76B06D56B /* console-early-2000s-bold.webp */; };
+		6727DBC52514283B326703F7 /* digital-library-card.webp in Resources */ = {isa = PBXBuildFile; fileRef = 45E3AF7DB233687F4F01B764 /* digital-library-card.webp */; };
+		6A470785493EF2BD869F0F63 /* MomentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 875689678D52189B22DE4146 /* MomentDetailView.swift */; };
+		71577671360F5990CADAAE51 /* console-late-2000s-glossy.webp in Resources */ = {isa = PBXBuildFile; fileRef = 1A4E57B23CF16455CCCEE23E /* console-late-2000s-glossy.webp */; };
+		72D8597CA57CCBBA86E28795 /* handheld-early-2000s-wide.webp in Resources */ = {isa = PBXBuildFile; fileRef = 1AA90E2DD7E7090D4F8F9641 /* handheld-early-2000s-wide.webp */; };
+		81EADA8DC2531E517DAABDF9 /* controller-eight-bit-rectangular.webp in Resources */ = {isa = PBXBuildFile; fileRef = F462781C1D9CEEC1E903E464 /* controller-eight-bit-rectangular.webp */; };
+		85F516AA6BDF7DDC1F9DF9AB /* game-case-tall-optical.webp in Resources */ = {isa = PBXBuildFile; fileRef = F86775F7570FCAE18DF22586 /* game-case-tall-optical.webp */; };
+		8926D6D5345C2BFFC0ACD3C1 /* CollectibleAssetImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D3AF9469BDF05B0E7DB1D5 /* CollectibleAssetImage.swift */; };
+		8A8BE5BCC02F81B028D7C056 /* current-black-tower-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6AF58CA46C0C22654E984372 /* current-black-tower-console.webp */; };
+		8D6809EDCEF235DF3E999673 /* current-desktop-gaming-pc.webp in Resources */ = {isa = PBXBuildFile; fileRef = 48A9E3A75669E32EB6704AFD /* current-desktop-gaming-pc.webp */; };
+		8EA2D9CE204536BA25DE4E81 /* CaptureMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 396BC4B62A82984DD97ECD4B /* CaptureMomentView.swift */; };
+		9311A4339C69AA883104987F /* GameRoomApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A827F8877845628D49A5028 /* GameRoomApp.swift */; };
+		93D840799E2827F871148403 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC62DECCA0090EA992C9EF8 /* AppTheme.swift */; };
+		96FD3B616960D58CA13721D4 /* Game Room Background Assets.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5137DC755C0DA21F6F13E15C /* Game Room Background Assets.appex */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9ADF15B3FC49A050464697F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8248344CFD73016C9747F098 /* Assets.xcassets */; };
+		9B2ECD0859F1DF3D72556442 /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2D2E78170FCED8B75D3B58 /* AddGameView.swift */; };
+		A32F4E72F28A25C71C1509FE /* console-compact-card-based.webp in Resources */ = {isa = PBXBuildFile; fileRef = 994B6E8B803B0584192219C2 /* console-compact-card-based.webp */; };
+		A48C79929A2212A6049BF0B4 /* console-late-2010s-flat.webp in Resources */ = {isa = PBXBuildFile; fileRef = 57C0933F81CE97F23CD4C9DB /* console-late-2010s-flat.webp */; };
+		A500568BC2619D68B72B6484 /* memory-card.webp in Resources */ = {isa = PBXBuildFile; fileRef = 90BE3D62C28929B0446D5E49 /* memory-card.webp */; };
+		A6400571D77920FEEA793680 /* console-woodgrain-classic.webp in Resources */ = {isa = PBXBuildFile; fileRef = 5C78B61D2D9BB85C42213168 /* console-woodgrain-classic.webp */; };
+		A7DFB940EA2A47B16B5A5D27 /* GameRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA4381E623F8D4B2BDF5A56D /* GameRoomTests.swift */; };
+		A81967E95E2784A4565786B5 /* game-card-handheld.webp in Resources */ = {isa = PBXBuildFile; fileRef = D19E1D77D51591BD2C754D23 /* game-card-handheld.webp */; };
 		A8C7A290AB387C5318CC2C8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0079A0C7719B8ABA58E9EDAA /* Foundation.framework */; };
-		AB0F6EA85D3B04F675A496D0 /* handheld-dual-screen-dimensional.webp in Resources */ = {isa = PBXBuildFile; fileRef = 99EE9135B7FEBF2EBF85C682 /* handheld-dual-screen-dimensional.webp */; };
-		ABC2DC8166C016EF8A20A695 /* handheld-color-vertical.webp in Resources */ = {isa = PBXBuildFile; fileRef = 9109A6E8F23B173EF0BEEF7E /* handheld-color-vertical.webp */; };
-		AEBA2D6C20DF2E034B6C3E64 /* GameRoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C778F31D3AE3F74CD99BC05 /* GameRoomTests.swift */; };
-		AFC6DC657205ABF0F69B17C2 /* CollectibleGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97AE51CD40D30A33D85A7EA /* CollectibleGalleryView.swift */; };
-		B01D63665981EC1DE6BBBBEC /* console-late-2010s-flat.webp in Resources */ = {isa = PBXBuildFile; fileRef = 55C27E18320717015FB8159C /* console-late-2010s-flat.webp */; };
-		B138C320006F13916CF7B48F /* GameRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5786E4DEF003803C7E274617 /* GameRoomUITests.swift */; };
-		B3184F77959DE86ACE93D2FF /* CaptureMomentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E937959C6561EECF8D9CEE0D /* CaptureMomentView.swift */; };
-		B482D5316315A4A5B8BB252F /* digital-library-card.webp in Resources */ = {isa = PBXBuildFile; fileRef = 54696B404E3E2E427CDD1CD5 /* digital-library-card.webp */; };
-		B82DB631B84D6B91395E891E /* console-early-2000s-bold.webp in Resources */ = {isa = PBXBuildFile; fileRef = B1B0BF154C74D0F802F996EB /* console-early-2000s-bold.webp */; };
-		BBB0539FE7DE9C966CF8CBBE /* AddGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FE85570D948384550C5E15 /* AddGameView.swift */; };
-		BE028FECA9C1A4797E4F5BF3 /* handheld-early-2010s-touch.webp in Resources */ = {isa = PBXBuildFile; fileRef = 9B72B82384A69D28305A92CD /* handheld-early-2010s-touch.webp */; };
-		C43998007A972B602B01FD02 /* current-next-hybrid-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = 022E8D1511E4397CC6654EB2 /* current-next-hybrid-console.webp */; };
-		C66073845E583F97DD80E251 /* StoredImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2FE358301E08A93F8350C9 /* StoredImageView.swift */; };
-		CB8F99C8875E61DDE7F3DF0F /* NotificationScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACA665F7F89B16F4D35D03B /* NotificationScheduler.swift */; };
-		CD0A6B88FE90DB4A6481B60A /* ShelfView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013174E130CFAA83C75DD635 /* ShelfView.swift */; };
-		CF9E2088394A8DD5B2A7F523 /* current-compact-digital-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4102DD79EE0E8C7BF327F39F /* current-compact-digital-console.webp */; };
-		D065EFC6219B9AC5290CF96A /* MomentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A59A456E7A4D0AA177467B /* MomentDetailView.swift */; };
-		D4F953C8C80BA78B33183E92 /* console-disc-era-white.webp in Resources */ = {isa = PBXBuildFile; fileRef = 353EA814EF4AF5ED0B2833FD /* console-disc-era-white.webp */; };
-		D51D6685FF15560973264B8D /* GameObjectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C4B421186E17775D30E52 /* GameObjectView.swift */; };
-		D572CB4C97E820E98E4F0849 /* current-handheld-gaming-pc.webp in Resources */ = {isa = PBXBuildFile; fileRef = DCBA37E5E4F41226B4B53CC1 /* current-handheld-gaming-pc.webp */; };
-		D69329714EAC360CF46AC5DB /* handheld-mid-2000s-disc.webp in Resources */ = {isa = PBXBuildFile; fileRef = 4CD88D6A81B28DC474E354BA /* handheld-mid-2000s-disc.webp */; };
+		A8DB27531142B840D02C1779 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24752F964E51C9A449590C96 /* SettingsView.swift */; };
+		AB3EFAA2052AC9179D1686B3 /* GameDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35CCCCEA68AA110737DDE96A /* GameDetailView.swift */; };
+		B38CAC6318D3EC8CD6E8866C /* save-file-card.webp in Resources */ = {isa = PBXBuildFile; fileRef = 32EBFB1CA70C1E4F7CB5A294 /* save-file-card.webp */; };
+		B7C324B1CA4D1FC07F8C9A0B /* handheld-dual-screen-dimensional.webp in Resources */ = {isa = PBXBuildFile; fileRef = C998F3DD414CFE321E0C51BC /* handheld-dual-screen-dimensional.webp */; };
+		C35ADE6EC3E094A203294B0F /* GameRoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CD3A3919B2B4B4633D3D7A /* GameRoomUITests.swift */; };
+		C4A77EE02BA86F7583D9881B /* handheld-dual-screen.webp in Resources */ = {isa = PBXBuildFile; fileRef = E03B61995F56BCAA66E45A67 /* handheld-dual-screen.webp */; };
+		C631991E8B991C1DF5B06DEF /* AppRootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68377309016EB9DF88A4BFFA /* AppRootView.swift */; };
+		C77E4CE222B26B49674AC0DE /* controller-sixteen-bit-rounded.webp in Resources */ = {isa = PBXBuildFile; fileRef = 31D3D2BDA5D0CCE6CC86EC46 /* controller-sixteen-bit-rounded.webp */; };
+		CE9EC451FB9C2ED1BEBCB940 /* StoredImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D88EE059EEDAD156D48140D /* StoredImageView.swift */; };
+		D3D9CD8DD393B1FDE0503FEA /* current-spatial-gaming-headset.webp in Resources */ = {isa = PBXBuildFile; fileRef = 2E1F8697F135B1FA714C7F4A /* current-spatial-gaming-headset.webp */; };
+		D7B6C2BFDDF35E0973CA87A2 /* handheld-early-2010s-touch.webp in Resources */ = {isa = PBXBuildFile; fileRef = 11F890B9893C76389D733AF9 /* handheld-early-2010s-touch.webp */; };
 		DFC6CC85D2CA1CF4E8D24EF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DA51709A312BD3E32AA279F /* Foundation.framework */; };
-		E663CCDDB3CAA2F67EFB667D /* console-premium-cartridge.webp in Resources */ = {isa = PBXBuildFile; fileRef = D8A321B4E5D4545DFC9C778A /* console-premium-cartridge.webp */; };
-		E8582E4B29851F64ED345BCE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA30F76649205B0AAF290859 /* Models.swift */; };
-		EAC74AC075A9ABBDAF02D1CB /* game-cartridge-sixteen-bit.webp in Resources */ = {isa = PBXBuildFile; fileRef = FEB912C307EC7ACE43CAFA7B /* game-cartridge-sixteen-bit.webp */; };
-		EB6726DA9F8EE3E988FC9FEF /* console-tablet-hybrid.webp in Resources */ = {isa = PBXBuildFile; fileRef = 26603A5AC4CD04D92F375192 /* console-tablet-hybrid.webp */; };
-		F92D6810E1280606E0224E99 /* moment-photo.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6B1FFDCD8D6FB86E639BBF45 /* moment-photo.webp */; };
+		E07BBE179FF3F1B6C00E6368 /* arcade-cabinet.webp in Resources */ = {isa = PBXBuildFile; fileRef = C19D63D32BBB17EA1343EB00 /* arcade-cabinet.webp */; };
+		E4EBDB3822E0E19536F813B5 /* CollectibleAssetRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A4E97E9A80C4D3C3D6E16E /* CollectibleAssetRepository.swift */; };
+		E7EA4804A08050F33D942614 /* CollectibleAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = A861AF643735EBAE5A150244 /* CollectibleAssets.swift */; };
+		EAD30ABEEFF0488783E728F7 /* current-next-hybrid-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = 0856687961863AB188FABE3E /* current-next-hybrid-console.webp */; };
+		EB1B385C8A5027BC4B378D8D /* game-cartridge-eight-bit.webp in Resources */ = {isa = PBXBuildFile; fileRef = DE8662989BC6BA90E6E656D7 /* game-cartridge-eight-bit.webp */; };
+		EDE78055EAC861300B51B7B6 /* handheld-landscape-classic.webp in Resources */ = {isa = PBXBuildFile; fileRef = 7FD05387EFFFF8A13BFF618B /* handheld-landscape-classic.webp */; };
+		EE25D70FE100A1D686D29FE0 /* console-premium-cartridge.webp in Resources */ = {isa = PBXBuildFile; fileRef = 43288676979A15637CAE2646 /* console-premium-cartridge.webp */; };
+		F6A24733B174940FEB83DBD3 /* current-compact-digital-console.webp in Resources */ = {isa = PBXBuildFile; fileRef = 65D4DBDA392F682702D49F04 /* current-compact-digital-console.webp */; };
+		F94ADF07091CB505F14D85AC /* MemoryHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1377A870213C676577192A20 /* MemoryHomeView.swift */; };
+		FE0F6847295862898935ED16 /* controller-three-prong.webp in Resources */ = {isa = PBXBuildFile; fileRef = CDFDE50C44082680B616990D /* controller-three-prong.webp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		233461F2B518883B5A6607C9 /* PBXContainerItemProxy */ = {
+		2E96A9D1C562174C1498D235 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 482602070C375D64A58C4FAC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2EF1CB56EAE796BE9FFDC966;
 			remoteInfo = "Game Room";
 		};
-		6463552C6B2230E39451FB77 /* PBXContainerItemProxy */ = {
+		357D90995EC5DD226F316D56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 482602070C375D64A58C4FAC /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2EF1CB56EAE796BE9FFDC966;
 			remoteInfo = "Game Room";
 		};
-		8F1FBA661CCBD6263674A6D3 /* PBXContainerItemProxy */ = {
+		7023684BA5BD8E1D86A6AD63 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 482602070C375D64A58C4FAC /* Project object */;
 			proxyType = 1;
@@ -114,13 +115,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		F9C9493B32BC189E822CEF4A /* Embed Foundation Extensions */ = {
+		F52FFCFC690AFB398CF3580F /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 16;
 			files = (
-				173E3A6DF8C031118F0B22FF /* Game Room Background Assets.appex in Embed Foundation Extensions */,
+				96FD3B616960D58CA13721D4 /* Game Room Background Assets.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -128,134 +129,177 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		001F9A2DD5CCA3ACD5C262D1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0034DDED1E330B67F5230D94 /* Game Room.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Game Room.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0079A0C7719B8ABA58E9EDAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		013174E130CFAA83C75DD635 /* ShelfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
-		0196DF26D40EA7B70F6DF180 /* GameDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
-		022E8D1511E4397CC6654EB2 /* current-next-hybrid-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-next-hybrid-console.webp"; sourceTree = "<group>"; };
-		03676A10C92BFA1FA07477CC /* controller-late-2010s-symmetric.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-late-2010s-symmetric.webp"; sourceTree = "<group>"; };
-		05F170ED7689F173686B01D7 /* handheld-early-2000s-wide.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-early-2000s-wide.webp"; sourceTree = "<group>"; };
-		08B3303093799440AC28CFF2 /* CollectibleAssetImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetImage.swift; sourceTree = "<group>"; };
-		08E47FDFD44E5147C68AF6DD /* New Project.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = "New Project.entitlements"; sourceTree = "<group>"; };
-		0CD5774417092F8D48D0E711 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1489D05CBD7D1C3CBFEB2132 /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
-		151F99ABB78BBB71A14A90FE /* arcade-cabinet.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "arcade-cabinet.webp"; sourceTree = "<group>"; };
-		1713DF9634D6E7B40852DDBD /* AppRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
-		1B8A7FE3CC0F65530B7ACE1D /* console-compact-card-based.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-compact-card-based.webp"; sourceTree = "<group>"; };
-		1D5223C0E51A88C3FF1EABCD /* MomentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
-		1E5943110DFED8089B5145C6 /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
-		242DAD243FBEFE1B0FA02D07 /* handheld-monochrome-vertical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-monochrome-vertical.webp"; sourceTree = "<group>"; };
-		26603A5AC4CD04D92F375192 /* console-tablet-hybrid.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-tablet-hybrid.webp"; sourceTree = "<group>"; };
-		29C937FFA1E29F2AD0E09481 /* AddGameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
-		2D0451004BEE4EC14C7D39DA /* GameRoomApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomApp.swift; sourceTree = "<group>"; };
-		2F16863CA887E610B7B204D3 /* controller-three-prong.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-three-prong.webp"; sourceTree = "<group>"; };
-		31895763FEB5A2AAB7F4D734 /* GameDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDomain.swift; sourceTree = "<group>"; };
+		01929C08A20F063CCD1A8394 /* current-next-hybrid-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-next-hybrid-console.webp"; sourceTree = "<group>"; };
+		03ECB59C9B4B6300976427E6 /* console-compact-card-based.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-compact-card-based.webp"; sourceTree = "<group>"; };
+		048C1F877F73D15F5A0FD271 /* controller-disc-era-round.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-disc-era-round.webp"; sourceTree = "<group>"; };
+		0755A1CC0BBE77521584A844 /* current-sculptural-home-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-sculptural-home-console.webp"; sourceTree = "<group>"; };
+		0856687961863AB188FABE3E /* current-next-hybrid-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-next-hybrid-console.webp"; sourceTree = "<group>"; };
+		0B6FCF6DA155AE21D51A03A1 /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
+		0C60D0A4264EAFA8A8E92F09 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FE29F758B2072FC7CFA1166 /* current-handheld-gaming-pc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-handheld-gaming-pc.webp"; sourceTree = "<group>"; };
+		10D3AF9469BDF05B0E7DB1D5 /* CollectibleAssetImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetImage.swift; sourceTree = "<group>"; };
+		1102F5E4FE92632FD3A36379 /* console-motion-slim.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-motion-slim.webp"; sourceTree = "<group>"; };
+		11F890B9893C76389D733AF9 /* handheld-early-2010s-touch.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-early-2010s-touch.webp"; sourceTree = "<group>"; };
+		122497622F7F56BB125ABE92 /* console-premium-cartridge.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-premium-cartridge.webp"; sourceTree = "<group>"; };
+		12E9FC2584C021351A99BE15 /* current-handheld-gaming-pc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-handheld-gaming-pc.webp"; sourceTree = "<group>"; };
+		1377A870213C676577192A20 /* MemoryHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryHomeView.swift; sourceTree = "<group>"; };
+		13A4E97E9A80C4D3C3D6E16E /* CollectibleAssetRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetRepository.swift; sourceTree = "<group>"; };
+		1A4E57B23CF16455CCCEE23E /* console-late-2000s-glossy.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-late-2000s-glossy.webp"; sourceTree = "<group>"; };
+		1AA90E2DD7E7090D4F8F9641 /* handheld-early-2000s-wide.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-early-2000s-wide.webp"; sourceTree = "<group>"; };
+		2452A293FF7A7886BCD6DC36 /* AppRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		24752F964E51C9A449590C96 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		266CCC1244952184CA7494DC /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		27432E93F81B0B86A46EF5ED /* GameDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		27DDD6E3C62AF29E8B84C781 /* current-classic-hybrid-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-classic-hybrid-console.webp"; sourceTree = "<group>"; };
+		2BD80E21C05464A03EE2DB67 /* console-early-2000s-black.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-early-2000s-black.webp"; sourceTree = "<group>"; };
+		2CDD043238FB4859DEA96D34 /* handheld-monochrome-vertical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-monochrome-vertical.webp"; sourceTree = "<group>"; };
+		2D2D2E78170FCED8B75D3B58 /* AddGameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
+		2E1F8697F135B1FA714C7F4A /* current-spatial-gaming-headset.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-spatial-gaming-headset.webp"; sourceTree = "<group>"; };
+		2E4FBD67491F449D941CE5D7 /* console-early-2000s-bold.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-early-2000s-bold.webp"; sourceTree = "<group>"; };
+		310531A9B2A7AB9DD646AB32 /* PlatformPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformPicker.swift; sourceTree = "<group>"; };
+		31D3D2BDA5D0CCE6CC86EC46 /* controller-sixteen-bit-rounded.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-sixteen-bit-rounded.webp"; sourceTree = "<group>"; };
+		320F8C0603DDBFF222EEAF63 /* console-early-2000s-black.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-early-2000s-black.webp"; sourceTree = "<group>"; };
+		32969B032717CA56A5F2A13F /* current-black-tower-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-black-tower-console.webp"; sourceTree = "<group>"; };
+		329F764CECE66C0AC751E385 /* GameDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDomain.swift; sourceTree = "<group>"; };
+		32EBFB1CA70C1E4F7CB5A294 /* save-file-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "save-file-card.webp"; sourceTree = "<group>"; };
+		3381BAD66AC10ABB8CF3B49C /* GameObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameObjectView.swift; sourceTree = "<group>"; };
+		34266100132B47CB37F38861 /* CollectibleAssetRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetRepository.swift; sourceTree = "<group>"; };
 		34A37916B85558AF3BFB84C8 /* Game RoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game RoomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		353EA814EF4AF5ED0B2833FD /* console-disc-era-white.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-disc-era-white.webp"; sourceTree = "<group>"; };
-		38FE85570D948384550C5E15 /* AddGameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
-		3D2AAFF4BD59659F897F74B1 /* GameRoomApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomApp.swift; sourceTree = "<group>"; };
+		352BAF99C8F0CFF21E43D9C5 /* arcade-cabinet.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "arcade-cabinet.webp"; sourceTree = "<group>"; };
+		35CCCCEA68AA110737DDE96A /* GameDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
+		396BC4B62A82984DD97ECD4B /* CaptureMomentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptureMomentView.swift; sourceTree = "<group>"; };
+		3D88EE059EEDAD156D48140D /* StoredImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoredImageView.swift; sourceTree = "<group>"; };
 		3EEE4066C9F93F97064CC6DA /* Game RoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Game RoomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4063974600D8BCB5BCA81BFF /* game-disc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-disc.webp"; sourceTree = "<group>"; };
-		4102DD79EE0E8C7BF327F39F /* current-compact-digital-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-compact-digital-console.webp"; sourceTree = "<group>"; };
-		43787600BD73A287D2675AA8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		479A0931E100D1648BDADA87 /* GameDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDetailView.swift; sourceTree = "<group>"; };
-		48B62B55E1121F297BCAC2B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		4CD88D6A81B28DC474E354BA /* handheld-mid-2000s-disc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-mid-2000s-disc.webp"; sourceTree = "<group>"; };
-		4D333F98729C72F3D87C3604 /* game-case-slim-hybrid.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-case-slim-hybrid.webp"; sourceTree = "<group>"; };
-		4E14E36BC564B2004A6C55F4 /* GameObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameObjectView.swift; sourceTree = "<group>"; };
-		4E94D8623D838F560122A7F5 /* game-card-handheld.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-card-handheld.webp"; sourceTree = "<group>"; };
+		3FD2A972CE464C3521BF760D /* game-cartridge-sixteen-bit.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-cartridge-sixteen-bit.webp"; sourceTree = "<group>"; };
+		40BB96B1F79AD61CF2881820 /* current-mobile-gaming.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-mobile-gaming.webp"; sourceTree = "<group>"; };
+		43288676979A15637CAE2646 /* console-premium-cartridge.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-premium-cartridge.webp"; sourceTree = "<group>"; };
+		4487B5FBE5568B4B3DE99189 /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		45E3AF7DB233687F4F01B764 /* digital-library-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "digital-library-card.webp"; sourceTree = "<group>"; };
+		47911A15E36D795073E5341D /* handheld-monochrome-vertical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-monochrome-vertical.webp"; sourceTree = "<group>"; };
+		48A9E3A75669E32EB6704AFD /* current-desktop-gaming-pc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-desktop-gaming-pc.webp"; sourceTree = "<group>"; };
+		4B92ACC27E359E73C9248A47 /* Info-macOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
+		4CA855AD25D2EEC19355F655 /* PlatformPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformPicker.swift; sourceTree = "<group>"; };
+		4D90D1377AEB4774039D0F91 /* NotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		50BAAD036180D7EF5D808131 /* controller-mid-1990s-dual-grip.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-mid-1990s-dual-grip.webp"; sourceTree = "<group>"; };
 		5137DC755C0DA21F6F13E15C /* Game Room Background Assets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Game Room Background Assets.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54696B404E3E2E427CDD1CD5 /* digital-library-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "digital-library-card.webp"; sourceTree = "<group>"; };
-		55C27E18320717015FB8159C /* console-late-2010s-flat.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-late-2010s-flat.webp"; sourceTree = "<group>"; };
-		5786E4DEF003803C7E274617 /* GameRoomUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomUITests.swift; sourceTree = "<group>"; };
-		5949D93ED08F6A508454180F /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		598C2BCF1558450C85CD1FC8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ACA665F7F89B16F4D35D03B /* NotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
-		5B48C77AE094F1B0181E5733 /* game-cartridge-eight-bit.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-cartridge-eight-bit.webp"; sourceTree = "<group>"; };
-		5C0230DC8B704015FFE445D3 /* CollectibleAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssets.swift; sourceTree = "<group>"; };
-		5FFFBCFDC111722ACA5EC0A3 /* Catalog-API-Study.md */ = {isa = PBXFileReference; includeInIndex = 1; path = "Catalog-API-Study.md"; sourceTree = "<group>"; };
-		62354FF2D13A27A235C1EECD /* controller-sixteen-bit-rounded.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-sixteen-bit-rounded.webp"; sourceTree = "<group>"; };
-		64901B03737E8749C201DEAA /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		661C209BD466F61373D4D04A /* controller-disc-era-round.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-disc-era-round.webp"; sourceTree = "<group>"; };
-		6B1FFDCD8D6FB86E639BBF45 /* moment-photo.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "moment-photo.webp"; sourceTree = "<group>"; };
-		6C7FBEC9C55FC45500A17280 /* console-late-2000s-glossy.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-late-2000s-glossy.webp"; sourceTree = "<group>"; };
-		6FAB7CFCFF5230056325B366 /* handheld-dual-screen.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-dual-screen.webp"; sourceTree = "<group>"; };
-		6FEDC022D3602DFB5C6F7BB1 /* GameRoomWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomWidget.swift; sourceTree = "<group>"; };
-		792838F777D9051A13FFE70A /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
-		7A40CC89AA63B8E00C6A8206 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		7C2FE358301E08A93F8350C9 /* StoredImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoredImageView.swift; sourceTree = "<group>"; };
-		7E6614C1464C988A7E84C761 /* current-gaming-laptop.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-gaming-laptop.webp"; sourceTree = "<group>"; };
-		7F482A07280A9AC1CDE24F34 /* CaptureMomentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptureMomentView.swift; sourceTree = "<group>"; };
-		820B5DD87F96BC558C4682DD /* controller-mid-1990s-dual-grip.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-mid-1990s-dual-grip.webp"; sourceTree = "<group>"; };
-		85A59A456E7A4D0AA177467B /* MomentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
-		85FA178A1EDBA4F2EC28188C /* console-motion-slim.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-motion-slim.webp"; sourceTree = "<group>"; };
-		8609F133768F35A62BEF985E /* DownloaderExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloaderExtension.swift; sourceTree = "<group>"; };
-		8A2BBF12B15F23D79013E49E /* Info-macOS.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Info-macOS.plist"; sourceTree = "<group>"; };
-		8B283B13F8909F98A8DD5A27 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8F90D07AD962F0BE8231E3EF /* console-early-2000s-black.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-early-2000s-black.webp"; sourceTree = "<group>"; };
-		9109A6E8F23B173EF0BEEF7E /* handheld-color-vertical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-color-vertical.webp"; sourceTree = "<group>"; };
-		9265B6980D241E8E373D645A /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
-		96B696C4A4EC2C40F52FB57D /* console-woodgrain-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-woodgrain-classic.webp"; sourceTree = "<group>"; };
-		98B250B63062439E185F47EB /* current-desktop-gaming-pc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-desktop-gaming-pc.webp"; sourceTree = "<group>"; };
-		99EE9135B7FEBF2EBF85C682 /* handheld-dual-screen-dimensional.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-dual-screen-dimensional.webp"; sourceTree = "<group>"; };
-		9B72B82384A69D28305A92CD /* handheld-early-2010s-touch.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-early-2010s-touch.webp"; sourceTree = "<group>"; };
-		9B93EF25D459B1C4460A0A95 /* CollectibleAssetRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetRepository.swift; sourceTree = "<group>"; };
-		9C42A48B662E9FACC252AC65 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		9C778F31D3AE3F74CD99BC05 /* GameRoomTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomTests.swift; sourceTree = "<group>"; };
+		54AF1DCDE1F9B5685813CC38 /* console-late-2010s-flat.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-late-2010s-flat.webp"; sourceTree = "<group>"; };
+		5714F2733E9314706BCDB3B6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		57908007E4BDE4BC47C3664D /* memory-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "memory-card.webp"; sourceTree = "<group>"; };
+		57C0933F81CE97F23CD4C9DB /* console-late-2010s-flat.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-late-2010s-flat.webp"; sourceTree = "<group>"; };
+		5827D1330AA51976B6EE6A22 /* handheld-mid-2000s-disc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-mid-2000s-disc.webp"; sourceTree = "<group>"; };
+		5ACC6C395B199FC38FFA9713 /* handheld-color-vertical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-color-vertical.webp"; sourceTree = "<group>"; };
+		5AD1DD7720F250225A7FE405 /* handheld-early-2000s-wide.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-early-2000s-wide.webp"; sourceTree = "<group>"; };
+		5C13A8E54961986BEC0D6406 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5C4C17F945049C17707A0E06 /* CollectibleAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssets.swift; sourceTree = "<group>"; };
+		5C78B61D2D9BB85C42213168 /* console-woodgrain-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-woodgrain-classic.webp"; sourceTree = "<group>"; };
+		5FC62DECCA0090EA992C9EF8 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		5FE5277F2B6C52C6A0107077 /* game-disc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-disc.webp"; sourceTree = "<group>"; };
+		60ADFF27045E2B40BBD6D1AD /* current-mobile-gaming.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-mobile-gaming.webp"; sourceTree = "<group>"; };
+		61079B2A2911E7AC95B38535 /* ImagePipeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImagePipeline.swift; sourceTree = "<group>"; };
+		62D3EB4EA67CE7252007AD6F /* ModelContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
+		63837C0B1D19FEF9F8079D47 /* controller-late-2010s-symmetric.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-late-2010s-symmetric.webp"; sourceTree = "<group>"; };
+		65D4DBDA392F682702D49F04 /* current-compact-digital-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-compact-digital-console.webp"; sourceTree = "<group>"; };
+		66FB429079B8E83F6D446F39 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		68377309016EB9DF88A4BFFA /* AppRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
+		6A7309C1133A7A1239505CC2 /* current-gaming-laptop.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-gaming-laptop.webp"; sourceTree = "<group>"; };
+		6AF58CA46C0C22654E984372 /* current-black-tower-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-black-tower-console.webp"; sourceTree = "<group>"; };
+		6B5CA0918D7CE31D900A8379 /* MemoryHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryHomeView.swift; sourceTree = "<group>"; };
+		6EA9DC8E80B2F9564C2ED77E /* handheld-dual-screen-dimensional.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-dual-screen-dimensional.webp"; sourceTree = "<group>"; };
+		72EAEB2377867512193CB6BD /* game-disc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-disc.webp"; sourceTree = "<group>"; };
+		744D73C41673FAA016E5BED0 /* console-mid-2000s-white.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-mid-2000s-white.webp"; sourceTree = "<group>"; };
+		74B39149830CAED2F678ED77 /* game-cartridge-sixteen-bit.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-cartridge-sixteen-bit.webp"; sourceTree = "<group>"; };
+		74DFD1F2221402CBAFF674BC /* handheld-mid-2000s-disc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-mid-2000s-disc.webp"; sourceTree = "<group>"; };
+		75546354386653F563C7E13F /* AppNavigationSplitView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppNavigationSplitView.swift; sourceTree = "<group>"; };
+		7714E5128B5F386F9CFDD4F1 /* game-collector-box.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-collector-box.webp"; sourceTree = "<group>"; };
+		7A828EBF3836DEE27315F645 /* controller-disc-era-round.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-disc-era-round.webp"; sourceTree = "<group>"; };
+		7BEA2AD5B967181D4DD0C988 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		7DE64DA63C421745D6C742E1 /* CaptureMomentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptureMomentView.swift; sourceTree = "<group>"; };
+		7FD05387EFFFF8A13BFF618B /* handheld-landscape-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-landscape-classic.webp"; sourceTree = "<group>"; };
+		801803F760BA1BF9FA5FF420 /* console-mid-2000s-white.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-mid-2000s-white.webp"; sourceTree = "<group>"; };
+		8110248410B6EA570034E3F5 /* GameObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameObjectView.swift; sourceTree = "<group>"; };
+		8248344CFD73016C9747F098 /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83745349D75DCD28EF07E7A0 /* Catalog-API-Study.md */ = {isa = PBXFileReference; includeInIndex = 1; path = "Catalog-API-Study.md"; sourceTree = "<group>"; };
+		83B758FDC900AEB1F91F3A66 /* console-compact-cube.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-compact-cube.webp"; sourceTree = "<group>"; };
+		84150F176514075987B7AACF /* current-gaming-laptop.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-gaming-laptop.webp"; sourceTree = "<group>"; };
+		875689678D52189B22DE4146 /* MomentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
+		87DD6C092917FE9C177B070A /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
+		8AD3255EA84D864A5018E5EE /* Assets.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8B8785C8E7F31B8647850A76 /* digital-library-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "digital-library-card.webp"; sourceTree = "<group>"; };
+		8D68C070EB4372DA50C82DFD /* moment-photo.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "moment-photo.webp"; sourceTree = "<group>"; };
+		909BB3B99C175938239B30EC /* console-compact-cube.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-compact-cube.webp"; sourceTree = "<group>"; };
+		90BE3D62C28929B0446D5E49 /* memory-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "memory-card.webp"; sourceTree = "<group>"; };
+		92876E1046A0835C7A9B3CAB /* controller-six-button-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-six-button-classic.webp"; sourceTree = "<group>"; };
+		9886D0F954FFFE5F328A70E4 /* console-woodgrain-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-woodgrain-classic.webp"; sourceTree = "<group>"; };
+		994B6E8B803B0584192219C2 /* console-compact-card-based.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-compact-card-based.webp"; sourceTree = "<group>"; };
+		99B2CE1C2DB80AE90F2D28BD /* controller-six-button-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-six-button-classic.webp"; sourceTree = "<group>"; };
+		9A827F8877845628D49A5028 /* GameRoomApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomApp.swift; sourceTree = "<group>"; };
 		9DA51709A312BD3E32AA279F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		9DB817679B5E55D3CDC13E1E /* console-mid-2000s-white.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-mid-2000s-white.webp"; sourceTree = "<group>"; };
-		A241E47BDCD9335FDF176635 /* MemoryHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryHomeView.swift; sourceTree = "<group>"; };
-		A51C4B421186E17775D30E52 /* GameObjectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameObjectView.swift; sourceTree = "<group>"; };
-		A55AFD3ADF53E21C4370747E /* CollectibleAssetRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetRepository.swift; sourceTree = "<group>"; };
-		AA30F76649205B0AAF290859 /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
-		AE33A7BAA6699DBCA14E1D7F /* current-black-tower-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-black-tower-console.webp"; sourceTree = "<group>"; };
-		AE6AC557EF70D61FCA25304B /* controller-six-button-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-six-button-classic.webp"; sourceTree = "<group>"; };
-		B1B0BF154C74D0F802F996EB /* console-early-2000s-bold.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-early-2000s-bold.webp"; sourceTree = "<group>"; };
-		B3AF6CD31B03FD8E17266D87 /* OnboardingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
-		B3FC2CC4A32FE87C51A2BFA4 /* AppTheme.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
-		B4E387D596FE200FE0C685DB /* controller-eight-bit-rectangular.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-eight-bit-rectangular.webp"; sourceTree = "<group>"; };
-		BCE1EB7256471D7833459950 /* current-spatial-gaming-headset.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-spatial-gaming-headset.webp"; sourceTree = "<group>"; };
-		BE20D70E7D574662E9F615C2 /* current-sculptural-home-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-sculptural-home-console.webp"; sourceTree = "<group>"; };
-		BF7035A87B711E64A869F1E1 /* ShelfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
-		C14B53F4CE4686F53D308036 /* handheld-landscape-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-landscape-classic.webp"; sourceTree = "<group>"; };
-		C388E08F715F9EF1B7ADCDA0 /* game-case-tall-optical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-case-tall-optical.webp"; sourceTree = "<group>"; };
-		C856BE660DBE97664773F5F9 /* game-collector-box.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-collector-box.webp"; sourceTree = "<group>"; };
-		C886DF06C2D7A4AEDCCB345E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CA4812DE68938888433C1548 /* CollectibleAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssets.swift; sourceTree = "<group>"; };
-		CC1229F1E7AFBE2BF4E6A525 /* BackgroundAssetsExtension.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = BackgroundAssetsExtension.entitlements; sourceTree = "<group>"; };
-		CC1BCE1D855AC9D2AF9F5AB7 /* Project.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Project.json; sourceTree = "<group>"; };
-		D4D0D748FD37E099C16B8367 /* GameRoomWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomWidget.swift; sourceTree = "<group>"; };
-		D7DDE7285F8943478BE99903 /* memory-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "memory-card.webp"; sourceTree = "<group>"; };
-		D8A321B4E5D4545DFC9C778A /* console-premium-cartridge.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-premium-cartridge.webp"; sourceTree = "<group>"; };
-		D8ED7905D91C05FC228C590A /* save-file-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "save-file-card.webp"; sourceTree = "<group>"; };
-		D9369551BCFCBD3E656203BE /* current-classic-hybrid-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-classic-hybrid-console.webp"; sourceTree = "<group>"; };
-		DA27EF66C464DA39B2290FB6 /* CollectibleAssetImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetImage.swift; sourceTree = "<group>"; };
-		DB44276BE416790F6AEB7BE9 /* StoredImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoredImageView.swift; sourceTree = "<group>"; };
-		DCBA37E5E4F41226B4B53CC1 /* current-handheld-gaming-pc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-handheld-gaming-pc.webp"; sourceTree = "<group>"; };
-		DE10EF88F83C16C26E111E85 /* MemoryHomeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MemoryHomeView.swift; sourceTree = "<group>"; };
-		E1D525A18ED42CCED0E4D75B /* ModelContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
-		E25059A460D2F821D5DFC353 /* GameDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDomain.swift; sourceTree = "<group>"; };
-		E6DCD06F6850FDE86A93C161 /* current-mobile-gaming.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-mobile-gaming.webp"; sourceTree = "<group>"; };
-		E937959C6561EECF8D9CEE0D /* CaptureMomentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CaptureMomentView.swift; sourceTree = "<group>"; };
-		EC3A9ADCB02B635F11C6762E /* console-compact-cube.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-compact-cube.webp"; sourceTree = "<group>"; };
-		F1BF86C50CC5DDE27D316FB7 /* CollectibleGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleGalleryView.swift; sourceTree = "<group>"; };
-		F44E8459A5515C876EE9F8B7 /* AppRootView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppRootView.swift; sourceTree = "<group>"; };
-		F72B05E91E46F55B38DBF7E2 /* ModelContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
-		F93D4F40578E3AE1A61B7B7E /* PlatformPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformPicker.swift; sourceTree = "<group>"; };
-		F97AE51CD40D30A33D85A7EA /* CollectibleGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleGalleryView.swift; sourceTree = "<group>"; };
-		FA6C8A8E48544214AEEF776F /* PlatformPicker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PlatformPicker.swift; sourceTree = "<group>"; };
-		FE98EA120E4C767B3FF0DEF9 /* NotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
-		FEB912C307EC7ACE43CAFA7B /* game-cartridge-sixteen-bit.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-cartridge-sixteen-bit.webp"; sourceTree = "<group>"; };
+		9DDA34C822F433EA8054D5A3 /* NotificationScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NotificationScheduler.swift; sourceTree = "<group>"; };
+		9FA234137E05BAA76B06D56B /* console-early-2000s-bold.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-early-2000s-bold.webp"; sourceTree = "<group>"; };
+		A0F1558AFF6074CE097FDA50 /* ShelfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		A137D70D956D48C6F2B83D99 /* handheld-early-2010s-touch.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-early-2010s-touch.webp"; sourceTree = "<group>"; };
+		A1B52A5D50D9618C2EB159D8 /* controller-three-prong.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-three-prong.webp"; sourceTree = "<group>"; };
+		A34EC123ABA46B12C27C2DF2 /* BackgroundAssetsExtension.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = BackgroundAssetsExtension.entitlements; sourceTree = "<group>"; };
+		A470E452D0D1E4AEECF62282 /* GameDomain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameDomain.swift; sourceTree = "<group>"; };
+		A861AF643735EBAE5A150244 /* CollectibleAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssets.swift; sourceTree = "<group>"; };
+		A910331114CD51CA4CF521BE /* console-tablet-hybrid.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-tablet-hybrid.webp"; sourceTree = "<group>"; };
+		AC83A1074DBB0DD898D07E04 /* DownloaderExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DownloaderExtension.swift; sourceTree = "<group>"; };
+		ADDC7BAB9FCCB533FBAE5071 /* game-case-slim-hybrid.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-case-slim-hybrid.webp"; sourceTree = "<group>"; };
+		AE75DC2FA06FE73D6C3626F1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AF2C47A6147FC6A14FEF835B /* MomentDetailView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MomentDetailView.swift; sourceTree = "<group>"; };
+		AFBC1BD9C6BDBA60C37F8017 /* game-cartridge-eight-bit.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-cartridge-eight-bit.webp"; sourceTree = "<group>"; };
+		B1D39F982A74B5D4AB729155 /* handheld-color-vertical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-color-vertical.webp"; sourceTree = "<group>"; };
+		B95E330E2373A6F15A87F588 /* ModelContainerFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelContainerFactory.swift; sourceTree = "<group>"; };
+		BA27C1D398B00ACCD9379FF5 /* handheld-landscape-classic.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-landscape-classic.webp"; sourceTree = "<group>"; };
+		BB1A85438E1B4F27E3B24E02 /* game-card-handheld.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-card-handheld.webp"; sourceTree = "<group>"; };
+		BC698AE8CA8EAE832D64641A /* New Project.entitlements */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.entitlements; path = "New Project.entitlements"; sourceTree = "<group>"; };
+		C19D63D32BBB17EA1343EB00 /* arcade-cabinet.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "arcade-cabinet.webp"; sourceTree = "<group>"; };
+		C2E6791DED311BC298CCA6EA /* Models.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		C6E3595FBF6BB22E3B93A614 /* ShelfView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ShelfView.swift; sourceTree = "<group>"; };
+		C86AF626CF087EEF31C72085 /* current-sculptural-home-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-sculptural-home-console.webp"; sourceTree = "<group>"; };
+		C998F3DD414CFE321E0C51BC /* handheld-dual-screen-dimensional.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-dual-screen-dimensional.webp"; sourceTree = "<group>"; };
+		CC500675043091AD1DB92146 /* current-compact-digital-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-compact-digital-console.webp"; sourceTree = "<group>"; };
+		CDFDE50C44082680B616990D /* controller-three-prong.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-three-prong.webp"; sourceTree = "<group>"; };
+		CFB43B482685C8E3B05940CC /* console-late-2000s-glossy.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-late-2000s-glossy.webp"; sourceTree = "<group>"; };
+		D19E1D77D51591BD2C754D23 /* game-card-handheld.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-card-handheld.webp"; sourceTree = "<group>"; };
+		D229D8A642FE9420B284057A /* GameRoomWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomWidget.swift; sourceTree = "<group>"; };
+		D2FF8D2B2469A05140C97DB6 /* CollectibleGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleGalleryView.swift; sourceTree = "<group>"; };
+		D55530C6F12E851D3A8DCBCD /* controller-eight-bit-rectangular.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-eight-bit-rectangular.webp"; sourceTree = "<group>"; };
+		D79F02DC5187F16E10571727 /* game-case-slim-hybrid.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-case-slim-hybrid.webp"; sourceTree = "<group>"; };
+		D82ADE35824B34ED15CA97FB /* GameRoomWidget.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomWidget.swift; sourceTree = "<group>"; };
+		D82BCD2A83E35ABB9D91C61C /* current-classic-hybrid-console.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-classic-hybrid-console.webp"; sourceTree = "<group>"; };
+		D97A111DBAAF532A8943C735 /* console-motion-slim.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-motion-slim.webp"; sourceTree = "<group>"; };
+		DA4381E623F8D4B2BDF5A56D /* GameRoomTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomTests.swift; sourceTree = "<group>"; };
+		DDB85BE34601A780F1397AE6 /* controller-mid-1990s-dual-grip.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-mid-1990s-dual-grip.webp"; sourceTree = "<group>"; };
+		DE01B99E4909F2F5A4AA35EA /* save-file-card.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "save-file-card.webp"; sourceTree = "<group>"; };
+		DE8662989BC6BA90E6E656D7 /* game-cartridge-eight-bit.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-cartridge-eight-bit.webp"; sourceTree = "<group>"; };
+		DEF9440648514F20B1A035F2 /* moment-photo.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "moment-photo.webp"; sourceTree = "<group>"; };
+		E03B61995F56BCAA66E45A67 /* handheld-dual-screen.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-dual-screen.webp"; sourceTree = "<group>"; };
+		E0512AF40B192AE198BB61C9 /* GameRoomApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomApp.swift; sourceTree = "<group>"; };
+		E1CD3A3919B2B4B4633D3D7A /* GameRoomUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GameRoomUITests.swift; sourceTree = "<group>"; };
+		E34A96B84AE37CBB1C1A8960 /* game-collector-box.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-collector-box.webp"; sourceTree = "<group>"; };
+		E39C096B083A14B7F7DFBCF8 /* current-spatial-gaming-headset.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-spatial-gaming-headset.webp"; sourceTree = "<group>"; };
+		E78D1B9FBBC350995CEFE424 /* console-disc-era-white.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-disc-era-white.webp"; sourceTree = "<group>"; };
+		EB7A1EAC74247B1376B0FEAA /* StoredImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StoredImageView.swift; sourceTree = "<group>"; };
+		ED3BA219DC69CF94FB828B0C /* CollectibleAssetImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleAssetImage.swift; sourceTree = "<group>"; };
+		ED86C54E0D1213BD67FE53C1 /* controller-late-2010s-symmetric.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-late-2010s-symmetric.webp"; sourceTree = "<group>"; };
+		EEFF417A36CDC0E20CED5C4A /* console-disc-era-white.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-disc-era-white.webp"; sourceTree = "<group>"; };
+		EF72A7A9B58A658031D27608 /* CollectibleGalleryView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CollectibleGalleryView.swift; sourceTree = "<group>"; };
+		F20DEA95A91C3C9C1D8C8339 /* handheld-dual-screen.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "handheld-dual-screen.webp"; sourceTree = "<group>"; };
+		F462781C1D9CEEC1E903E464 /* controller-eight-bit-rectangular.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-eight-bit-rectangular.webp"; sourceTree = "<group>"; };
+		F54FF3C6E51AF551EB024ECC /* Project.json */ = {isa = PBXFileReference; includeInIndex = 1; path = Project.json; sourceTree = "<group>"; };
+		F665EDC877D2B1A574EC6812 /* controller-sixteen-bit-rounded.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "controller-sixteen-bit-rounded.webp"; sourceTree = "<group>"; };
+		F66983E7E662649C6A3AC07F /* game-case-tall-optical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-case-tall-optical.webp"; sourceTree = "<group>"; };
+		F6DE6F8699481B9CA5BBDC2D /* current-desktop-gaming-pc.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "current-desktop-gaming-pc.webp"; sourceTree = "<group>"; };
+		F86775F7570FCAE18DF22586 /* game-case-tall-optical.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "game-case-tall-optical.webp"; sourceTree = "<group>"; };
+		FD874EB09D651E6CD0C951E5 /* console-tablet-hybrid.webp */ = {isa = PBXFileReference; includeInIndex = 1; path = "console-tablet-hybrid.webp"; sourceTree = "<group>"; };
+		FF2EC6D4AD62BAC77348ECE2 /* AddGameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AddGameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0A28C2CDF078FC3517990EE4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		14EF732D3096A6165DBA60D2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -272,6 +316,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E574C837C4B3EEC6E8E99963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E69825BAB34C8CFDD1F57620 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -283,314 +334,353 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03CA0BFA33AB089AB2728FA9 /* AppShell */ = {
+		1C1672EAB8AA718B2DF31F0B /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				1713DF9634D6E7B40852DDBD /* AppRootView.swift */,
-				3D2AAFF4BD59659F897F74B1 /* GameRoomApp.swift */,
-			);
-			name = AppShell;
-			path = AppShell;
-			sourceTree = "<group>";
-		};
-		0615F935E611ABEF5467C06B /* Features */ = {
-			isa = PBXGroup;
-			children = (
-				42CC8459B071E31EB38355A2 /* Games */,
-				8B83777234AEF6886BFD3803 /* Memory */,
-				F4D37D6963367F77BB45B93E /* Moments */,
-				0E2CFC0CFCCAC96EA8CF0E05 /* Onboarding */,
-				EDE0507AFD38074932596301 /* Settings */,
-				F03E12A494A0DFA5DFC855D5 /* Shelf */,
-			);
-			name = Features;
-			path = Features;
-			sourceTree = "<group>";
-		};
-		09E4EAF6FCAC5806EC6511F0 /* Shelf */ = {
-			isa = PBXGroup;
-			children = (
-				BF7035A87B711E64A869F1E1 /* ShelfView.swift */,
-			);
-			name = Shelf;
-			path = Shelf;
-			sourceTree = "<group>";
-		};
-		0E2CFC0CFCCAC96EA8CF0E05 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				7A40CC89AA63B8E00C6A8206 /* OnboardingView.swift */,
-			);
-			name = Onboarding;
-			path = Onboarding;
-			sourceTree = "<group>";
-		};
-		0F4114D0023402CBF7354BF6 /* Moments */ = {
-			isa = PBXGroup;
-			children = (
-				7F482A07280A9AC1CDE24F34 /* CaptureMomentView.swift */,
-				1D5223C0E51A88C3FF1EABCD /* MomentDetailView.swift */,
-			);
-			name = Moments;
-			path = Moments;
-			sourceTree = "<group>";
-		};
-		3854D2F265D9E0327FB27022 /* Settings */ = {
-			isa = PBXGroup;
-			children = (
-				F1BF86C50CC5DDE27D316FB7 /* CollectibleGalleryView.swift */,
-				792838F777D9051A13FFE70A /* SettingsView.swift */,
+				D2FF8D2B2469A05140C97DB6 /* CollectibleGalleryView.swift */,
+				4487B5FBE5568B4B3DE99189 /* SettingsView.swift */,
 			);
 			name = Settings;
 			path = Settings;
 			sourceTree = "<group>";
 		};
-		3B5C39C7C6ED1F72FD7E629F /* Docs */ = {
+		1D5DB24F4B8FA48E799E1691 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				5FFFBCFDC111722ACA5EC0A3 /* Catalog-API-Study.md */,
-			);
-			name = Docs;
-			path = Docs;
-			sourceTree = "<group>";
-		};
-		40F4680A57074842F3402F3C /* Services */ = {
-			isa = PBXGroup;
-			children = (
-				A55AFD3ADF53E21C4370747E /* CollectibleAssetRepository.swift */,
-				1E5943110DFED8089B5145C6 /* ImagePipeline.swift */,
-				5ACA665F7F89B16F4D35D03B /* NotificationScheduler.swift */,
-			);
-			name = Services;
-			path = Services;
-			sourceTree = "<group>";
-		};
-		42CC8459B071E31EB38355A2 /* Games */ = {
-			isa = PBXGroup;
-			children = (
-				38FE85570D948384550C5E15 /* AddGameView.swift */,
-				479A0931E100D1648BDADA87 /* GameDetailView.swift */,
-				A51C4B421186E17775D30E52 /* GameObjectView.swift */,
-			);
-			name = Games;
-			path = Games;
-			sourceTree = "<group>";
-		};
-		486610728D474DF3A42E0939 /* Collectibles */ = {
-			isa = PBXGroup;
-			children = (
-				151F99ABB78BBB71A14A90FE /* arcade-cabinet.webp */,
-				1B8A7FE3CC0F65530B7ACE1D /* console-compact-card-based.webp */,
-				EC3A9ADCB02B635F11C6762E /* console-compact-cube.webp */,
-				353EA814EF4AF5ED0B2833FD /* console-disc-era-white.webp */,
-				8F90D07AD962F0BE8231E3EF /* console-early-2000s-black.webp */,
-				B1B0BF154C74D0F802F996EB /* console-early-2000s-bold.webp */,
-				6C7FBEC9C55FC45500A17280 /* console-late-2000s-glossy.webp */,
-				55C27E18320717015FB8159C /* console-late-2010s-flat.webp */,
-				9DB817679B5E55D3CDC13E1E /* console-mid-2000s-white.webp */,
-				85FA178A1EDBA4F2EC28188C /* console-motion-slim.webp */,
-				D8A321B4E5D4545DFC9C778A /* console-premium-cartridge.webp */,
-				26603A5AC4CD04D92F375192 /* console-tablet-hybrid.webp */,
-				96B696C4A4EC2C40F52FB57D /* console-woodgrain-classic.webp */,
-				661C209BD466F61373D4D04A /* controller-disc-era-round.webp */,
-				B4E387D596FE200FE0C685DB /* controller-eight-bit-rectangular.webp */,
-				03676A10C92BFA1FA07477CC /* controller-late-2010s-symmetric.webp */,
-				820B5DD87F96BC558C4682DD /* controller-mid-1990s-dual-grip.webp */,
-				AE6AC557EF70D61FCA25304B /* controller-six-button-classic.webp */,
-				62354FF2D13A27A235C1EECD /* controller-sixteen-bit-rounded.webp */,
-				2F16863CA887E610B7B204D3 /* controller-three-prong.webp */,
-				AE33A7BAA6699DBCA14E1D7F /* current-black-tower-console.webp */,
-				D9369551BCFCBD3E656203BE /* current-classic-hybrid-console.webp */,
-				4102DD79EE0E8C7BF327F39F /* current-compact-digital-console.webp */,
-				98B250B63062439E185F47EB /* current-desktop-gaming-pc.webp */,
-				7E6614C1464C988A7E84C761 /* current-gaming-laptop.webp */,
-				DCBA37E5E4F41226B4B53CC1 /* current-handheld-gaming-pc.webp */,
-				E6DCD06F6850FDE86A93C161 /* current-mobile-gaming.webp */,
-				022E8D1511E4397CC6654EB2 /* current-next-hybrid-console.webp */,
-				BE20D70E7D574662E9F615C2 /* current-sculptural-home-console.webp */,
-				BCE1EB7256471D7833459950 /* current-spatial-gaming-headset.webp */,
-				54696B404E3E2E427CDD1CD5 /* digital-library-card.webp */,
-				4E94D8623D838F560122A7F5 /* game-card-handheld.webp */,
-				5B48C77AE094F1B0181E5733 /* game-cartridge-eight-bit.webp */,
-				FEB912C307EC7ACE43CAFA7B /* game-cartridge-sixteen-bit.webp */,
-				4D333F98729C72F3D87C3604 /* game-case-slim-hybrid.webp */,
-				C388E08F715F9EF1B7ADCDA0 /* game-case-tall-optical.webp */,
-				C856BE660DBE97664773F5F9 /* game-collector-box.webp */,
-				4063974600D8BCB5BCA81BFF /* game-disc.webp */,
-				9109A6E8F23B173EF0BEEF7E /* handheld-color-vertical.webp */,
-				99EE9135B7FEBF2EBF85C682 /* handheld-dual-screen-dimensional.webp */,
-				6FAB7CFCFF5230056325B366 /* handheld-dual-screen.webp */,
-				05F170ED7689F173686B01D7 /* handheld-early-2000s-wide.webp */,
-				9B72B82384A69D28305A92CD /* handheld-early-2010s-touch.webp */,
-				C14B53F4CE4686F53D308036 /* handheld-landscape-classic.webp */,
-				4CD88D6A81B28DC474E354BA /* handheld-mid-2000s-disc.webp */,
-				242DAD243FBEFE1B0FA02D07 /* handheld-monochrome-vertical.webp */,
-				D7DDE7285F8943478BE99903 /* memory-card.webp */,
-				6B1FFDCD8D6FB86E639BBF45 /* moment-photo.webp */,
-				D8ED7905D91C05FC228C590A /* save-file-card.webp */,
-			);
-			name = Collectibles;
-			path = Collectibles;
-			sourceTree = "<group>";
-		};
-		4A4B17D05E99A9E20D02B68A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				486610728D474DF3A42E0939 /* Collectibles */,
-			);
-			name = Resources;
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		506E7636D67746CF6AF94952 /* Widget */ = {
-			isa = PBXGroup;
-			children = (
-				D4D0D748FD37E099C16B8367 /* GameRoomWidget.swift */,
-				0CD5774417092F8D48D0E711 /* README.md */,
-			);
-			name = Widget;
-			path = Widget;
-			sourceTree = "<group>";
-		};
-		55A6EF53EA594A4D4090FEBA /* Domain */ = {
-			isa = PBXGroup;
-			children = (
-				5C0230DC8B704015FFE445D3 /* CollectibleAssets.swift */,
-				31895763FEB5A2AAB7F4D734 /* GameDomain.swift */,
-				AA30F76649205B0AAF290859 /* Models.swift */,
-			);
-			name = Domain;
-			path = Domain;
-			sourceTree = "<group>";
-		};
-		57B580E7C77AF1346D17B86D /* UITests */ = {
-			isa = PBXGroup;
-			children = (
-				5786E4DEF003803C7E274617 /* GameRoomUITests.swift */,
-			);
-			name = UITests;
-			path = UITests;
-			sourceTree = "<group>";
-		};
-		62B6748A1DC8635F408F3028 /* DesignSystem */ = {
-			isa = PBXGroup;
-			children = (
-				9265B6980D241E8E373D645A /* AppTheme.swift */,
-				DA27EF66C464DA39B2290FB6 /* CollectibleAssetImage.swift */,
-				FA6C8A8E48544214AEEF776F /* PlatformPicker.swift */,
-				7C2FE358301E08A93F8350C9 /* StoredImageView.swift */,
-			);
-			name = DesignSystem;
-			path = DesignSystem;
-			sourceTree = "<group>";
-		};
-		66175D5186A1816DBD5A4DB8 /* Deferred */ = {
-			isa = PBXGroup;
-			children = (
-				506E7636D67746CF6AF94952 /* Widget */,
-			);
-			name = Deferred;
-			path = Deferred;
-			sourceTree = "<group>";
-		};
-		78749E28B444AE6E1B2BED1A /* Tests */ = {
-			isa = PBXGroup;
-			children = (
-				9C778F31D3AE3F74CD99BC05 /* GameRoomTests.swift */,
-			);
-			name = Tests;
-			path = Tests;
-			sourceTree = "<group>";
-		};
-		7F053747313D257BDF7197F8 /* Games */ = {
-			isa = PBXGroup;
-			children = (
-				29C937FFA1E29F2AD0E09481 /* AddGameView.swift */,
-				0196DF26D40EA7B70F6DF180 /* GameDetailView.swift */,
-				4E14E36BC564B2004A6C55F4 /* GameObjectView.swift */,
-			);
-			name = Games;
-			path = Games;
-			sourceTree = "<group>";
-		};
-		8B7133FDEBDDAC0854D46A4C /* Memory */ = {
-			isa = PBXGroup;
-			children = (
-				A241E47BDCD9335FDF176635 /* MemoryHomeView.swift */,
-			);
-			name = Memory;
-			path = Memory;
-			sourceTree = "<group>";
-		};
-		8B83777234AEF6886BFD3803 /* Memory */ = {
-			isa = PBXGroup;
-			children = (
-				DE10EF88F83C16C26E111E85 /* MemoryHomeView.swift */,
-			);
-			name = Memory;
-			path = Memory;
-			sourceTree = "<group>";
-		};
-		8C7D1CF7F2BA439E1A14A962 /* Data */ = {
-			isa = PBXGroup;
-			children = (
-				F72B05E91E46F55B38DBF7E2 /* ModelContainerFactory.swift */,
-			);
-			name = Data;
-			path = Data;
-			sourceTree = "<group>";
-		};
-		96BF693F312B1431132F86E3 /* Onboarding */ = {
-			isa = PBXGroup;
-			children = (
-				B3AF6CD31B03FD8E17266D87 /* OnboardingView.swift */,
+				66FB429079B8E83F6D446F39 /* OnboardingView.swift */,
 			);
 			name = Onboarding;
 			path = Onboarding;
 			sourceTree = "<group>";
 		};
-		B2FA688C56FD1E601C9A8A07 /* App */ = {
+		25715D10B803D907E6D81B19 /* Memory */ = {
 			isa = PBXGroup;
 			children = (
-				03CA0BFA33AB089AB2728FA9 /* AppShell */,
-				8B283B13F8909F98A8DD5A27 /* Assets.xcassets */,
-				8C7D1CF7F2BA439E1A14A962 /* Data */,
-				62B6748A1DC8635F408F3028 /* DesignSystem */,
-				55A6EF53EA594A4D4090FEBA /* Domain */,
-				0615F935E611ABEF5467C06B /* Features */,
-				8A2BBF12B15F23D79013E49E /* Info-macOS.plist */,
-				C886DF06C2D7A4AEDCCB345E /* Info.plist */,
-				08E47FDFD44E5147C68AF6DD /* New Project.entitlements */,
-				4A4B17D05E99A9E20D02B68A /* Resources */,
-				40F4680A57074842F3402F3C /* Services */,
+				6B5CA0918D7CE31D900A8379 /* MemoryHomeView.swift */,
 			);
-			name = App;
-			path = App;
+			name = Memory;
+			path = Memory;
 			sourceTree = "<group>";
 		};
-		D91A9D79A0446C62BFA51A10 /* BackgroundAssetsExtension */ = {
+		26A78D61381BAB44A1F4431F /* Docs */ = {
 			isa = PBXGroup;
 			children = (
-				CC1229F1E7AFBE2BF4E6A525 /* BackgroundAssetsExtension.entitlements */,
-				8609F133768F35A62BEF985E /* DownloaderExtension.swift */,
-				598C2BCF1558450C85CD1FC8 /* Info.plist */,
+				83745349D75DCD28EF07E7A0 /* Catalog-API-Study.md */,
+			);
+			name = Docs;
+			path = Docs;
+			sourceTree = "<group>";
+		};
+		27E273951979EC4511E11B39 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				3716722B3B7D4DE3EB070249 /* Games */,
+				5C64BE1BC9813E4802AB4FFE /* Memory */,
+				3E9DE32CAEF7CAF5DADE59B6 /* Moments */,
+				1D5DB24F4B8FA48E799E1691 /* Onboarding */,
+				33D5D678735F5D606EBDFE01 /* Settings */,
+				CF46CCAAD054E7B1770DC9B6 /* Shelf */,
+			);
+			name = Features;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		33D5D678735F5D606EBDFE01 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EF72A7A9B58A658031D27608 /* CollectibleGalleryView.swift */,
+				24752F964E51C9A449590C96 /* SettingsView.swift */,
+			);
+			name = Settings;
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		3716722B3B7D4DE3EB070249 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				2D2D2E78170FCED8B75D3B58 /* AddGameView.swift */,
+				35CCCCEA68AA110737DDE96A /* GameDetailView.swift */,
+				3381BAD66AC10ABB8CF3B49C /* GameObjectView.swift */,
+			);
+			name = Games;
+			path = Games;
+			sourceTree = "<group>";
+		};
+		3D32F6FCAB35E87797217ACA /* BackgroundAssetsExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A34EC123ABA46B12C27C2DF2 /* BackgroundAssetsExtension.entitlements */,
+				AC83A1074DBB0DD898D07E04 /* DownloaderExtension.swift */,
+				001F9A2DD5CCA3ACD5C262D1 /* Info.plist */,
 			);
 			name = BackgroundAssetsExtension;
 			path = BackgroundAssetsExtension;
+			sourceTree = "<group>";
+		};
+		3E9DE32CAEF7CAF5DADE59B6 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				396BC4B62A82984DD97ECD4B /* CaptureMomentView.swift */,
+				875689678D52189B22DE4146 /* MomentDetailView.swift */,
+			);
+			name = Moments;
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		406F6808AA02AF8D5C641580 /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1CD3A3919B2B4B4633D3D7A /* GameRoomUITests.swift */,
+			);
+			name = UITests;
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		4EFB5FB476844F1FDC21E667 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				7BEA2AD5B967181D4DD0C988 /* OnboardingView.swift */,
+			);
+			name = Onboarding;
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		5C64BE1BC9813E4802AB4FFE /* Memory */ = {
+			isa = PBXGroup;
+			children = (
+				1377A870213C676577192A20 /* MemoryHomeView.swift */,
+			);
+			name = Memory;
+			path = Memory;
+			sourceTree = "<group>";
+		};
+		60624C28169634F20D15FCF9 /* Collectibles */ = {
+			isa = PBXGroup;
+			children = (
+				C19D63D32BBB17EA1343EB00 /* arcade-cabinet.webp */,
+				994B6E8B803B0584192219C2 /* console-compact-card-based.webp */,
+				83B758FDC900AEB1F91F3A66 /* console-compact-cube.webp */,
+				E78D1B9FBBC350995CEFE424 /* console-disc-era-white.webp */,
+				2BD80E21C05464A03EE2DB67 /* console-early-2000s-black.webp */,
+				9FA234137E05BAA76B06D56B /* console-early-2000s-bold.webp */,
+				1A4E57B23CF16455CCCEE23E /* console-late-2000s-glossy.webp */,
+				57C0933F81CE97F23CD4C9DB /* console-late-2010s-flat.webp */,
+				801803F760BA1BF9FA5FF420 /* console-mid-2000s-white.webp */,
+				1102F5E4FE92632FD3A36379 /* console-motion-slim.webp */,
+				43288676979A15637CAE2646 /* console-premium-cartridge.webp */,
+				A910331114CD51CA4CF521BE /* console-tablet-hybrid.webp */,
+				5C78B61D2D9BB85C42213168 /* console-woodgrain-classic.webp */,
+				7A828EBF3836DEE27315F645 /* controller-disc-era-round.webp */,
+				F462781C1D9CEEC1E903E464 /* controller-eight-bit-rectangular.webp */,
+				ED86C54E0D1213BD67FE53C1 /* controller-late-2010s-symmetric.webp */,
+				DDB85BE34601A780F1397AE6 /* controller-mid-1990s-dual-grip.webp */,
+				99B2CE1C2DB80AE90F2D28BD /* controller-six-button-classic.webp */,
+				31D3D2BDA5D0CCE6CC86EC46 /* controller-sixteen-bit-rounded.webp */,
+				CDFDE50C44082680B616990D /* controller-three-prong.webp */,
+				6AF58CA46C0C22654E984372 /* current-black-tower-console.webp */,
+				27DDD6E3C62AF29E8B84C781 /* current-classic-hybrid-console.webp */,
+				65D4DBDA392F682702D49F04 /* current-compact-digital-console.webp */,
+				48A9E3A75669E32EB6704AFD /* current-desktop-gaming-pc.webp */,
+				6A7309C1133A7A1239505CC2 /* current-gaming-laptop.webp */,
+				12E9FC2584C021351A99BE15 /* current-handheld-gaming-pc.webp */,
+				60ADFF27045E2B40BBD6D1AD /* current-mobile-gaming.webp */,
+				0856687961863AB188FABE3E /* current-next-hybrid-console.webp */,
+				0755A1CC0BBE77521584A844 /* current-sculptural-home-console.webp */,
+				2E1F8697F135B1FA714C7F4A /* current-spatial-gaming-headset.webp */,
+				45E3AF7DB233687F4F01B764 /* digital-library-card.webp */,
+				D19E1D77D51591BD2C754D23 /* game-card-handheld.webp */,
+				DE8662989BC6BA90E6E656D7 /* game-cartridge-eight-bit.webp */,
+				3FD2A972CE464C3521BF760D /* game-cartridge-sixteen-bit.webp */,
+				D79F02DC5187F16E10571727 /* game-case-slim-hybrid.webp */,
+				F86775F7570FCAE18DF22586 /* game-case-tall-optical.webp */,
+				7714E5128B5F386F9CFDD4F1 /* game-collector-box.webp */,
+				72EAEB2377867512193CB6BD /* game-disc.webp */,
+				5ACC6C395B199FC38FFA9713 /* handheld-color-vertical.webp */,
+				C998F3DD414CFE321E0C51BC /* handheld-dual-screen-dimensional.webp */,
+				E03B61995F56BCAA66E45A67 /* handheld-dual-screen.webp */,
+				1AA90E2DD7E7090D4F8F9641 /* handheld-early-2000s-wide.webp */,
+				11F890B9893C76389D733AF9 /* handheld-early-2010s-touch.webp */,
+				7FD05387EFFFF8A13BFF618B /* handheld-landscape-classic.webp */,
+				74DFD1F2221402CBAFF674BC /* handheld-mid-2000s-disc.webp */,
+				2CDD043238FB4859DEA96D34 /* handheld-monochrome-vertical.webp */,
+				90BE3D62C28929B0446D5E49 /* memory-card.webp */,
+				DEF9440648514F20B1A035F2 /* moment-photo.webp */,
+				32EBFB1CA70C1E4F7CB5A294 /* save-file-card.webp */,
+			);
+			name = Collectibles;
+			path = Collectibles;
+			sourceTree = "<group>";
+		};
+		715DD6D9A2C402D89C95894F /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				5FC62DECCA0090EA992C9EF8 /* AppTheme.swift */,
+				10D3AF9469BDF05B0E7DB1D5 /* CollectibleAssetImage.swift */,
+				4CA855AD25D2EEC19355F655 /* PlatformPicker.swift */,
+				3D88EE059EEDAD156D48140D /* StoredImageView.swift */,
+			);
+			name = DesignSystem;
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		7C84676558994A2EFE98B9EE /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				13A4E97E9A80C4D3C3D6E16E /* CollectibleAssetRepository.swift */,
+				0B6FCF6DA155AE21D51A03A1 /* ImagePipeline.swift */,
+				9DDA34C822F433EA8054D5A3 /* NotificationScheduler.swift */,
+			);
+			name = Services;
+			path = Services;
+			sourceTree = "<group>";
+		};
+		84C7E75E97AA677D841C2DC2 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				7DE64DA63C421745D6C742E1 /* CaptureMomentView.swift */,
+				AF2C47A6147FC6A14FEF835B /* MomentDetailView.swift */,
+			);
+			name = Moments;
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		866D0C13FEC10A45989A9B22 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				A861AF643735EBAE5A150244 /* CollectibleAssets.swift */,
+				329F764CECE66C0AC751E385 /* GameDomain.swift */,
+				C2E6791DED311BC298CCA6EA /* Models.swift */,
+			);
+			name = Domain;
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		8A62228B722B48AEBC2A146F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				60624C28169634F20D15FCF9 /* Collectibles */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		94B13B96B49CDC09B9084F51 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B95E330E2373A6F15A87F588 /* ModelContainerFactory.swift */,
+			);
+			name = Data;
+			path = Data;
+			sourceTree = "<group>";
+		};
+		C17085877F73F388A379357F /* AppShell */ = {
+			isa = PBXGroup;
+			children = (
+				75546354386653F563C7E13F /* AppNavigationSplitView.swift */,
+				68377309016EB9DF88A4BFFA /* AppRootView.swift */,
+				9A827F8877845628D49A5028 /* GameRoomApp.swift */,
+			);
+			name = AppShell;
+			path = AppShell;
+			sourceTree = "<group>";
+		};
+		C72D98FEE4C1E9B3AD3A850B /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				D229D8A642FE9420B284057A /* GameRoomWidget.swift */,
+				5C13A8E54961986BEC0D6406 /* README.md */,
+			);
+			name = Widget;
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		CBF7663B98726C31F4C2A4FF /* Collectibles */ = {
+			isa = PBXGroup;
+			children = (
+				352BAF99C8F0CFF21E43D9C5 /* arcade-cabinet.webp */,
+				03ECB59C9B4B6300976427E6 /* console-compact-card-based.webp */,
+				909BB3B99C175938239B30EC /* console-compact-cube.webp */,
+				EEFF417A36CDC0E20CED5C4A /* console-disc-era-white.webp */,
+				320F8C0603DDBFF222EEAF63 /* console-early-2000s-black.webp */,
+				2E4FBD67491F449D941CE5D7 /* console-early-2000s-bold.webp */,
+				CFB43B482685C8E3B05940CC /* console-late-2000s-glossy.webp */,
+				54AF1DCDE1F9B5685813CC38 /* console-late-2010s-flat.webp */,
+				744D73C41673FAA016E5BED0 /* console-mid-2000s-white.webp */,
+				D97A111DBAAF532A8943C735 /* console-motion-slim.webp */,
+				122497622F7F56BB125ABE92 /* console-premium-cartridge.webp */,
+				FD874EB09D651E6CD0C951E5 /* console-tablet-hybrid.webp */,
+				9886D0F954FFFE5F328A70E4 /* console-woodgrain-classic.webp */,
+				048C1F877F73D15F5A0FD271 /* controller-disc-era-round.webp */,
+				D55530C6F12E851D3A8DCBCD /* controller-eight-bit-rectangular.webp */,
+				63837C0B1D19FEF9F8079D47 /* controller-late-2010s-symmetric.webp */,
+				50BAAD036180D7EF5D808131 /* controller-mid-1990s-dual-grip.webp */,
+				92876E1046A0835C7A9B3CAB /* controller-six-button-classic.webp */,
+				F665EDC877D2B1A574EC6812 /* controller-sixteen-bit-rounded.webp */,
+				A1B52A5D50D9618C2EB159D8 /* controller-three-prong.webp */,
+				32969B032717CA56A5F2A13F /* current-black-tower-console.webp */,
+				D82BCD2A83E35ABB9D91C61C /* current-classic-hybrid-console.webp */,
+				CC500675043091AD1DB92146 /* current-compact-digital-console.webp */,
+				F6DE6F8699481B9CA5BBDC2D /* current-desktop-gaming-pc.webp */,
+				84150F176514075987B7AACF /* current-gaming-laptop.webp */,
+				0FE29F758B2072FC7CFA1166 /* current-handheld-gaming-pc.webp */,
+				40BB96B1F79AD61CF2881820 /* current-mobile-gaming.webp */,
+				01929C08A20F063CCD1A8394 /* current-next-hybrid-console.webp */,
+				C86AF626CF087EEF31C72085 /* current-sculptural-home-console.webp */,
+				E39C096B083A14B7F7DFBCF8 /* current-spatial-gaming-headset.webp */,
+				8B8785C8E7F31B8647850A76 /* digital-library-card.webp */,
+				BB1A85438E1B4F27E3B24E02 /* game-card-handheld.webp */,
+				AFBC1BD9C6BDBA60C37F8017 /* game-cartridge-eight-bit.webp */,
+				74B39149830CAED2F678ED77 /* game-cartridge-sixteen-bit.webp */,
+				ADDC7BAB9FCCB533FBAE5071 /* game-case-slim-hybrid.webp */,
+				F66983E7E662649C6A3AC07F /* game-case-tall-optical.webp */,
+				E34A96B84AE37CBB1C1A8960 /* game-collector-box.webp */,
+				5FE5277F2B6C52C6A0107077 /* game-disc.webp */,
+				B1D39F982A74B5D4AB729155 /* handheld-color-vertical.webp */,
+				6EA9DC8E80B2F9564C2ED77E /* handheld-dual-screen-dimensional.webp */,
+				F20DEA95A91C3C9C1D8C8339 /* handheld-dual-screen.webp */,
+				5AD1DD7720F250225A7FE405 /* handheld-early-2000s-wide.webp */,
+				A137D70D956D48C6F2B83D99 /* handheld-early-2010s-touch.webp */,
+				BA27C1D398B00ACCD9379FF5 /* handheld-landscape-classic.webp */,
+				5827D1330AA51976B6EE6A22 /* handheld-mid-2000s-disc.webp */,
+				47911A15E36D795073E5341D /* handheld-monochrome-vertical.webp */,
+				57908007E4BDE4BC47C3664D /* memory-card.webp */,
+				8D68C070EB4372DA50C82DFD /* moment-photo.webp */,
+				DE01B99E4909F2F5A4AA35EA /* save-file-card.webp */,
+			);
+			name = Collectibles;
+			path = Collectibles;
+			sourceTree = "<group>";
+		};
+		CF46CCAAD054E7B1770DC9B6 /* Shelf */ = {
+			isa = PBXGroup;
+			children = (
+				A0F1558AFF6074CE097FDA50 /* ShelfView.swift */,
+			);
+			name = Shelf;
+			path = Shelf;
+			sourceTree = "<group>";
+		};
+		D86DD516ADDC72EDCFAC92E8 /* Deferred */ = {
+			isa = PBXGroup;
+			children = (
+				C72D98FEE4C1E9B3AD3A850B /* Widget */,
+			);
+			name = Deferred;
+			path = Deferred;
 			sourceTree = "<group>";
 		};
 		DB727812E189FD39D54A7E56 = {
 			isa = PBXGroup;
 			children = (
 				E3C138378155B8422C0C859B /* Products */,
-				B2FA688C56FD1E601C9A8A07 /* App */,
-				D91A9D79A0446C62BFA51A10 /* BackgroundAssetsExtension */,
-				78749E28B444AE6E1B2BED1A /* Tests */,
-				57B580E7C77AF1346D17B86D /* UITests */,
-				66175D5186A1816DBD5A4DB8 /* Deferred */,
-				3B5C39C7C6ED1F72FD7E629F /* Docs */,
-				48B62B55E1121F297BCAC2B0 /* README.md */,
-				CC1BCE1D855AC9D2AF9F5AB7 /* Project.json */,
+				EAAE628F85642883724A4944 /* App */,
+				3D32F6FCAB35E87797217ACA /* BackgroundAssetsExtension */,
+				F8257F7076F7C2EF3329C418 /* Tests */,
+				406F6808AA02AF8D5C641580 /* UITests */,
+				D86DD516ADDC72EDCFAC92E8 /* Deferred */,
+				26A78D61381BAB44A1F4431F /* Docs */,
+				5714F2733E9314706BCDB3B6 /* README.md */,
+				F54FF3C6E51AF551EB024ECC /* Project.json */,
 			);
 			sourceTree = "<group>";
 		};
@@ -605,33 +695,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EDE0507AFD38074932596301 /* Settings */ = {
+		E48531DE3F4762DCC66EE3D4 /* Shelf */ = {
 			isa = PBXGroup;
 			children = (
-				F97AE51CD40D30A33D85A7EA /* CollectibleGalleryView.swift */,
-				5949D93ED08F6A508454180F /* SettingsView.swift */,
-			);
-			name = Settings;
-			path = Settings;
-			sourceTree = "<group>";
-		};
-		F03E12A494A0DFA5DFC855D5 /* Shelf */ = {
-			isa = PBXGroup;
-			children = (
-				013174E130CFAA83C75DD635 /* ShelfView.swift */,
+				C6E3595FBF6BB22E3B93A614 /* ShelfView.swift */,
 			);
 			name = Shelf;
 			path = Shelf;
 			sourceTree = "<group>";
 		};
-		F4D37D6963367F77BB45B93E /* Moments */ = {
+		EAAE628F85642883724A4944 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				E937959C6561EECF8D9CEE0D /* CaptureMomentView.swift */,
-				85A59A456E7A4D0AA177467B /* MomentDetailView.swift */,
+				C17085877F73F388A379357F /* AppShell */,
+				8248344CFD73016C9747F098 /* Assets.xcassets */,
+				94B13B96B49CDC09B9084F51 /* Data */,
+				715DD6D9A2C402D89C95894F /* DesignSystem */,
+				866D0C13FEC10A45989A9B22 /* Domain */,
+				27E273951979EC4511E11B39 /* Features */,
+				4B92ACC27E359E73C9248A47 /* Info-macOS.plist */,
+				0C60D0A4264EAFA8A8E92F09 /* Info.plist */,
+				BC698AE8CA8EAE832D64641A /* New Project.entitlements */,
+				8A62228B722B48AEBC2A146F /* Resources */,
+				7C84676558994A2EFE98B9EE /* Services */,
 			);
-			name = Moments;
-			path = Moments;
+			name = App;
+			path = App;
+			sourceTree = "<group>";
+		};
+		F8257F7076F7C2EF3329C418 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DA4381E623F8D4B2BDF5A56D /* GameRoomTests.swift */,
+			);
+			name = Tests;
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		FB757BAD0899AC54612F9118 /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				FF2EC6D4AD62BAC77348ECE2 /* AddGameView.swift */,
+				27432E93F81B0B86A46EF5ED /* GameDetailView.swift */,
+				8110248410B6EA570034E3F5 /* GameObjectView.swift */,
+			);
+			name = Games;
+			path = Games;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -641,15 +750,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20978472B67D69692401A1C7 /* Build configuration list for PBXNativeTarget "Game Room" */;
 			buildPhases = (
-				F2E9F2DB66F7ED5C8D047344 /* Sources */,
-				8EC237FFE554FF1A2A47AD1F /* Resources */,
-				0A28C2CDF078FC3517990EE4 /* Frameworks */,
-				F9C9493B32BC189E822CEF4A /* Embed Foundation Extensions */,
+				A91D19EF5D1DAFFACECD74F2 /* Sources */,
+				041A869141EE24B6E29B531E /* Resources */,
+				E574C837C4B3EEC6E8E99963 /* Frameworks */,
+				F52FFCFC690AFB398CF3580F /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3AD28CCFC09D4463AE54FDDE /* PBXTargetDependency */,
+				404D2EC614E14F7EDE8A8A8B /* PBXTargetDependency */,
 			);
 			name = "Game Room";
 			productName = "Game Room";
@@ -667,7 +776,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A28CBC6FFDFF0F5E653F8B77 /* PBXTargetDependency */,
+				01CF5557AA77930AD8D8FF62 /* PBXTargetDependency */,
 			);
 			name = "Game RoomTests";
 			productName = "Game RoomTests";
@@ -702,7 +811,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F290704C31451D67019AB45D /* PBXTargetDependency */,
+				80CD166917373CA73BB19D70 /* PBXTargetDependency */,
 			);
 			name = "Game RoomUITests";
 			productName = "Game RoomUITests";
@@ -763,6 +872,63 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		041A869141EE24B6E29B531E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9ADF15B3FC49A050464697F9 /* Assets.xcassets in Resources */,
+				E07BBE179FF3F1B6C00E6368 /* arcade-cabinet.webp in Resources */,
+				A32F4E72F28A25C71C1509FE /* console-compact-card-based.webp in Resources */,
+				36579D9B050A66AB195C475D /* console-compact-cube.webp in Resources */,
+				51BB84E3281A243A081242EC /* console-disc-era-white.webp in Resources */,
+				289B5612E5E4583B64B6CEB7 /* console-early-2000s-black.webp in Resources */,
+				6667E280F39A74E5D8C469B6 /* console-early-2000s-bold.webp in Resources */,
+				71577671360F5990CADAAE51 /* console-late-2000s-glossy.webp in Resources */,
+				A48C79929A2212A6049BF0B4 /* console-late-2010s-flat.webp in Resources */,
+				3946DCDA20AA0D5BEDDF2AC1 /* console-mid-2000s-white.webp in Resources */,
+				1EE30A3CF2E02AD164714D50 /* console-motion-slim.webp in Resources */,
+				EE25D70FE100A1D686D29FE0 /* console-premium-cartridge.webp in Resources */,
+				5C6A8516B2DDE1E736422074 /* console-tablet-hybrid.webp in Resources */,
+				A6400571D77920FEEA793680 /* console-woodgrain-classic.webp in Resources */,
+				589D49D61F6127A67CCA023C /* controller-disc-era-round.webp in Resources */,
+				81EADA8DC2531E517DAABDF9 /* controller-eight-bit-rectangular.webp in Resources */,
+				2621BD2E8307F1D8FB3CCD12 /* controller-late-2010s-symmetric.webp in Resources */,
+				206DADD098DEEB07786BCF92 /* controller-mid-1990s-dual-grip.webp in Resources */,
+				4F866930EC65CF4DFE85CA25 /* controller-six-button-classic.webp in Resources */,
+				C77E4CE222B26B49674AC0DE /* controller-sixteen-bit-rounded.webp in Resources */,
+				FE0F6847295862898935ED16 /* controller-three-prong.webp in Resources */,
+				8A8BE5BCC02F81B028D7C056 /* current-black-tower-console.webp in Resources */,
+				1F3757DD03E419C9E0FF7EAD /* current-classic-hybrid-console.webp in Resources */,
+				F6A24733B174940FEB83DBD3 /* current-compact-digital-console.webp in Resources */,
+				8D6809EDCEF235DF3E999673 /* current-desktop-gaming-pc.webp in Resources */,
+				3B471D0D0AE589D9ECD7C28C /* current-gaming-laptop.webp in Resources */,
+				1DEBDA4503A571632F95ACF5 /* current-handheld-gaming-pc.webp in Resources */,
+				1737F844BB661149375E5335 /* current-mobile-gaming.webp in Resources */,
+				EAD30ABEEFF0488783E728F7 /* current-next-hybrid-console.webp in Resources */,
+				2F2ECDE54CF0B528B9D52CBD /* current-sculptural-home-console.webp in Resources */,
+				D3D9CD8DD393B1FDE0503FEA /* current-spatial-gaming-headset.webp in Resources */,
+				6727DBC52514283B326703F7 /* digital-library-card.webp in Resources */,
+				A81967E95E2784A4565786B5 /* game-card-handheld.webp in Resources */,
+				EB1B385C8A5027BC4B378D8D /* game-cartridge-eight-bit.webp in Resources */,
+				2C79137127E3787333D6016A /* game-cartridge-sixteen-bit.webp in Resources */,
+				629AB8D683F6F1117DD51B5D /* game-case-slim-hybrid.webp in Resources */,
+				85F516AA6BDF7DDC1F9DF9AB /* game-case-tall-optical.webp in Resources */,
+				321117D9942E2F70BE3F4F68 /* game-collector-box.webp in Resources */,
+				4445609194D45960D7D479C9 /* game-disc.webp in Resources */,
+				39EE92A1A5E968282DD8B0C1 /* handheld-color-vertical.webp in Resources */,
+				B7C324B1CA4D1FC07F8C9A0B /* handheld-dual-screen-dimensional.webp in Resources */,
+				C4A77EE02BA86F7583D9881B /* handheld-dual-screen.webp in Resources */,
+				72D8597CA57CCBBA86E28795 /* handheld-early-2000s-wide.webp in Resources */,
+				D7B6C2BFDDF35E0973CA87A2 /* handheld-early-2010s-touch.webp in Resources */,
+				EDE78055EAC861300B51B7B6 /* handheld-landscape-classic.webp in Resources */,
+				2DC088930627628631AE39B7 /* handheld-mid-2000s-disc.webp in Resources */,
+				3A442C6468B3837130FB6163 /* handheld-monochrome-vertical.webp in Resources */,
+				A500568BC2619D68B72B6484 /* memory-card.webp in Resources */,
+				0F79C6E75C21B0868AF0E8B4 /* moment-photo.webp in Resources */,
+				B38CAC6318D3EC8CD6E8866C /* save-file-card.webp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3A8FBBF4568223CE78BEF006 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -774,63 +940,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8EC237FFE554FF1A2A47AD1F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				68F243C7127ECB5E654061F4 /* Assets.xcassets in Resources */,
-				82E94BE7D9B0343B850DF976 /* arcade-cabinet.webp in Resources */,
-				13D0834A8981D4C0333DC1C7 /* console-compact-card-based.webp in Resources */,
-				26CABF3C6C9CACD15B8D80D4 /* console-compact-cube.webp in Resources */,
-				D4F953C8C80BA78B33183E92 /* console-disc-era-white.webp in Resources */,
-				1636CC496D079689340EC0CE /* console-early-2000s-black.webp in Resources */,
-				B82DB631B84D6B91395E891E /* console-early-2000s-bold.webp in Resources */,
-				787B357C7DC7B30D4E33FF24 /* console-late-2000s-glossy.webp in Resources */,
-				B01D63665981EC1DE6BBBBEC /* console-late-2010s-flat.webp in Resources */,
-				9A55E11B3FAD1DA0EC5806C2 /* console-mid-2000s-white.webp in Resources */,
-				A8BF784629E77FF563FCA1F3 /* console-motion-slim.webp in Resources */,
-				E663CCDDB3CAA2F67EFB667D /* console-premium-cartridge.webp in Resources */,
-				EB6726DA9F8EE3E988FC9FEF /* console-tablet-hybrid.webp in Resources */,
-				940FE712FF1A0F916A8DE213 /* console-woodgrain-classic.webp in Resources */,
-				3CB14B689D0F03A2F826F682 /* controller-disc-era-round.webp in Resources */,
-				4E456656F67CCD317B7D3ECB /* controller-eight-bit-rectangular.webp in Resources */,
-				8DFEDB356CAA1608CD70B704 /* controller-late-2010s-symmetric.webp in Resources */,
-				017F4F8D7C5EBB741F15F2CD /* controller-mid-1990s-dual-grip.webp in Resources */,
-				45A6177F6FD14D246D7552E5 /* controller-six-button-classic.webp in Resources */,
-				6E1E37BCF714B69021102FC6 /* controller-sixteen-bit-rounded.webp in Resources */,
-				837380A4E9AAC07A9E0AF17C /* controller-three-prong.webp in Resources */,
-				5E6F79D914CB3DE76818FF6F /* current-black-tower-console.webp in Resources */,
-				73E8338BC9AF5DD0794460BC /* current-classic-hybrid-console.webp in Resources */,
-				CF9E2088394A8DD5B2A7F523 /* current-compact-digital-console.webp in Resources */,
-				97C2B6C9E4C85191787F5B1A /* current-desktop-gaming-pc.webp in Resources */,
-				0DE4475B999584350D2E3086 /* current-gaming-laptop.webp in Resources */,
-				D572CB4C97E820E98E4F0849 /* current-handheld-gaming-pc.webp in Resources */,
-				28C0E36E0159366C36097D32 /* current-mobile-gaming.webp in Resources */,
-				C43998007A972B602B01FD02 /* current-next-hybrid-console.webp in Resources */,
-				981E47F8BD8906B979D212E8 /* current-sculptural-home-console.webp in Resources */,
-				317ACCD2D4838C5B549FCDC2 /* current-spatial-gaming-headset.webp in Resources */,
-				B482D5316315A4A5B8BB252F /* digital-library-card.webp in Resources */,
-				599F047DF1F2C4914453AA75 /* game-card-handheld.webp in Resources */,
-				948B045D4A135C8281839890 /* game-cartridge-eight-bit.webp in Resources */,
-				EAC74AC075A9ABBDAF02D1CB /* game-cartridge-sixteen-bit.webp in Resources */,
-				9968CA269C4433F34928C62E /* game-case-slim-hybrid.webp in Resources */,
-				39943776B20DAE3E372AD213 /* game-case-tall-optical.webp in Resources */,
-				76CFF4CA84D486FCB1DD19B7 /* game-collector-box.webp in Resources */,
-				A3A6FB1159E17CD1131D6821 /* game-disc.webp in Resources */,
-				ABC2DC8166C016EF8A20A695 /* handheld-color-vertical.webp in Resources */,
-				AB0F6EA85D3B04F675A496D0 /* handheld-dual-screen-dimensional.webp in Resources */,
-				143F7FC6B6461978189401E5 /* handheld-dual-screen.webp in Resources */,
-				08F5F9715AE395289CFBFB3F /* handheld-early-2000s-wide.webp in Resources */,
-				BE028FECA9C1A4797E4F5BF3 /* handheld-early-2010s-touch.webp in Resources */,
-				49ED6DBBF4E01600E4EBDA6E /* handheld-landscape-classic.webp in Resources */,
-				D69329714EAC360CF46AC5DB /* handheld-mid-2000s-disc.webp in Resources */,
-				0E1022A4C37F27DD5ACEF71D /* handheld-monochrome-vertical.webp in Resources */,
-				18D72B4CFE01CCE28C0F7EAA /* memory-card.webp in Resources */,
-				F92D6810E1280606E0224E99 /* moment-photo.webp in Resources */,
-				467C0486122C37147731A6CE /* save-file-card.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -848,7 +957,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBA2D6C20DF2E034B6C3E64 /* GameRoomTests.swift in Sources */,
+				A7DFB940EA2A47B16B5A5D27 /* GameRoomTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,7 +965,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B138C320006F13916CF7B48F /* GameRoomUITests.swift in Sources */,
+				C35ADE6EC3E094A203294B0F /* GameRoomUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -864,60 +973,61 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8F604A628A33181C86E55B /* DownloaderExtension.swift in Sources */,
+				3ED3BC214CD05C7F7C1E8F7B /* DownloaderExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2E9F2DB66F7ED5C8D047344 /* Sources */ = {
+		A91D19EF5D1DAFFACECD74F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				021513DFB2C673B071ACA2F1 /* AppRootView.swift in Sources */,
-				584C59D5A7A361EF5ED0574A /* GameRoomApp.swift in Sources */,
-				53D7B4FE4B60AE08371DAC08 /* ModelContainerFactory.swift in Sources */,
-				47C388A0C37A6F504D7B04B7 /* AppTheme.swift in Sources */,
-				0440AB0A5A66F33A9B469F0A /* CollectibleAssetImage.swift in Sources */,
-				542D3B8815798D20E95A4F71 /* PlatformPicker.swift in Sources */,
-				C66073845E583F97DD80E251 /* StoredImageView.swift in Sources */,
-				A12C69DBF8C98CB29F6F5F68 /* CollectibleAssets.swift in Sources */,
-				79A35B138A4280C130921712 /* GameDomain.swift in Sources */,
-				E8582E4B29851F64ED345BCE /* Models.swift in Sources */,
-				BBB0539FE7DE9C966CF8CBBE /* AddGameView.swift in Sources */,
-				14A0ED0F0C035FB8D7D1DBE1 /* GameDetailView.swift in Sources */,
-				D51D6685FF15560973264B8D /* GameObjectView.swift in Sources */,
-				91FBC9D65CE975B4D49C5B6B /* MemoryHomeView.swift in Sources */,
-				B3184F77959DE86ACE93D2FF /* CaptureMomentView.swift in Sources */,
-				D065EFC6219B9AC5290CF96A /* MomentDetailView.swift in Sources */,
-				041140C659F48F8F46842FCF /* OnboardingView.swift in Sources */,
-				AFC6DC657205ABF0F69B17C2 /* CollectibleGalleryView.swift in Sources */,
-				3DD7474A5431CC3AC19F5C97 /* SettingsView.swift in Sources */,
-				CD0A6B88FE90DB4A6481B60A /* ShelfView.swift in Sources */,
-				60ACF45A3C87756CA29B4562 /* CollectibleAssetRepository.swift in Sources */,
-				96CE58356A3050E2E3FBA425 /* ImagePipeline.swift in Sources */,
-				CB8F99C8875E61DDE7F3DF0F /* NotificationScheduler.swift in Sources */,
+				51C21B9C4A77387E441C4394 /* AppNavigationSplitView.swift in Sources */,
+				C631991E8B991C1DF5B06DEF /* AppRootView.swift in Sources */,
+				9311A4339C69AA883104987F /* GameRoomApp.swift in Sources */,
+				5F97719A09DCE3685D5384E2 /* ModelContainerFactory.swift in Sources */,
+				93D840799E2827F871148403 /* AppTheme.swift in Sources */,
+				8926D6D5345C2BFFC0ACD3C1 /* CollectibleAssetImage.swift in Sources */,
+				4D504BD15588C4B45B619D19 /* PlatformPicker.swift in Sources */,
+				CE9EC451FB9C2ED1BEBCB940 /* StoredImageView.swift in Sources */,
+				E7EA4804A08050F33D942614 /* CollectibleAssets.swift in Sources */,
+				31B2C0BDFA4A2B32D566F91D /* GameDomain.swift in Sources */,
+				5D767B9B4A92E3552DD946B6 /* Models.swift in Sources */,
+				9B2ECD0859F1DF3D72556442 /* AddGameView.swift in Sources */,
+				AB3EFAA2052AC9179D1686B3 /* GameDetailView.swift in Sources */,
+				01526667A0C585D3EFB3CD1E /* GameObjectView.swift in Sources */,
+				F94ADF07091CB505F14D85AC /* MemoryHomeView.swift in Sources */,
+				8EA2D9CE204536BA25DE4E81 /* CaptureMomentView.swift in Sources */,
+				6A470785493EF2BD869F0F63 /* MomentDetailView.swift in Sources */,
+				3997429FD2BFD46F6EDFBCA2 /* OnboardingView.swift in Sources */,
+				2538CF2960BFA02DEC4CDC2C /* CollectibleGalleryView.swift in Sources */,
+				A8DB27531142B840D02C1779 /* SettingsView.swift in Sources */,
+				1B0F6273AB6B2E04D9970489 /* ShelfView.swift in Sources */,
+				E4EBDB3822E0E19536F813B5 /* CollectibleAssetRepository.swift in Sources */,
+				301CBC275CC12DB9E689B537 /* ImagePipeline.swift in Sources */,
+				33ECCFDD7F72B2BBA1C92B82 /* NotificationScheduler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3AD28CCFC09D4463AE54FDDE /* PBXTargetDependency */ = {
+		01CF5557AA77930AD8D8FF62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Game Room";
+			target = 2EF1CB56EAE796BE9FFDC966 /* Game Room */;
+			targetProxy = 357D90995EC5DD226F316D56 /* PBXContainerItemProxy */;
+		};
+		404D2EC614E14F7EDE8A8A8B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Game Room Background Assets";
 			target = A017F963E0F79A0FFC963516 /* Game Room Background Assets */;
-			targetProxy = 8F1FBA661CCBD6263674A6D3 /* PBXContainerItemProxy */;
+			targetProxy = 7023684BA5BD8E1D86A6AD63 /* PBXContainerItemProxy */;
 		};
-		A28CBC6FFDFF0F5E653F8B77 /* PBXTargetDependency */ = {
+		80CD166917373CA73BB19D70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Game Room";
 			target = 2EF1CB56EAE796BE9FFDC966 /* Game Room */;
-			targetProxy = 233461F2B518883B5A6607C9 /* PBXContainerItemProxy */;
-		};
-		F290704C31451D67019AB45D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Game Room";
-			target = 2EF1CB56EAE796BE9FFDC966 /* Game Room */;
-			targetProxy = 6463552C6B2230E39451FB77 /* PBXContainerItemProxy */;
+			targetProxy = 2E96A9D1C562174C1498D235 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
